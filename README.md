@@ -56,14 +56,14 @@ v2.3.2 | 2026-04-13
  <!-- mongo、redis和文件数据集支持包，按需引入 -->
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
-    <artifactId>jimureport-nosql-starter</artifactId>
-    <version>2.1.0</version>
+    <artifactId>jimureport-nosql-starter3</artifactId>
+    <version>2.3.0</version>
  </dependency>
  <!-- 后台导出接口Echart图表支持包，按需引入 -->
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimureport-echarts-starter</artifactId>
-    <version>2.2.0</version>
+    <version>2.3.0</version>
  </dependency>
 ```
 
@@ -83,7 +83,7 @@ v2.3.2 | 2026-04-13
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimureport-echarts-starter</artifactId>
-    <version>2.2.0</version>
+    <version>2.3.0</version>
  </dependency>
 ```
 

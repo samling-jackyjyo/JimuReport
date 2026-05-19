@@ -59,14 +59,14 @@ Quick Integration of JimuReport
  <!-- MongoDB, Redis, and file dataset support package, add as needed -->
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
-    <artifactId>jimureport-nosql-starter</artifactId>
-    <version>2.1.0</version>
+    <artifactId>jimureport-nosql-starter3</artifactId>
+    <version>2.3.0</version>
  </dependency>
  <!-- Backend export interface ECharts support package, add as needed -->
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimureport-echarts-starter</artifactId>
-    <version>2.2.0</version>
+    <version>2.3.0</version>
  </dependency>
 ```
 
@@ -86,7 +86,7 @@ Quick Integration of JimuReport
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimureport-echarts-starter</artifactId>
-    <version>2.2.0</version>
+    <version>2.3.0</version>
  </dependency>
 ```
 
