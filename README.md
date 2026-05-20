@@ -144,6 +144,15 @@ git clone https://github.com/jeecgboot/skills.git ~/.claude/skills
 
 安装完成后，新开终端运行 `claude`，即可用自然语言生成报表与大屏。
 
+#### 🔑 模型对接（DeepSeek）与 Key 申请
+
+技能基于 Claude Code 运行，需配置一个模型后端。推荐对接 **DeepSeek v4**（按 token 计费，性价比高，国内访问稳定）：
+
+1. **申请 API Key**：登录 [DeepSeek 开放平台](https://platform.deepseek.com/api_keys) 创建并复制 API Key，充值少量额度即可。
+2. **自动对接**：使用上方「方式一」一键安装脚本时，会自动引导接入 DeepSeek v4，按提示粘贴 Key 即可，无需手动配置。
+
+> 详细对接说明与其他模型（Claude、通义千问等）配置，请参考技能官网： https://jimureport.com/skills
+
 > - 一键安装入口： https://help.jeecg.com/java/ai/skills/skill-install
 > - Skills 开源仓库： https://github.com/jeecgboot/skills
 > - 技能官网： https://jimureport.com/skills
