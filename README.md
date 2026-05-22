@@ -24,12 +24,12 @@ v2.3.4 | 2026-05-21
 - [产品介绍](#产品介绍)
 - [为什么选择 JimuReport](#为什么选择-jimureport)
 - [快速链接](#快速链接)
-- [AI 智能生成](#ai-智能生成)
 - [快速集成](#快速集成)
+- [部署与运行](#部署与运行)
+- [AI 智能生成](#ai-智能生成)
 - [数据库兼容](#数据库兼容)
 - [效果展示](#效果展示)
 - [功能清单](#功能清单)
-- [部署与运行](#部署与运行)
 - [技术文档与支持](#技术文档与支持)
 - [产生背景](#产生背景)
 - [授权协议](#授权协议)
@@ -61,46 +61,14 @@ v2.3.4 | 2026-05-21
 
 >    **永久免费 · AI 智能 · 全场景覆盖** —— 一句话生成报表，类 Excel 拖拽设计，30+ 数据源、复杂报表、精准打印、数据填报、大屏仪表盘一应俱全，低代码时代的报表首选！
 
-#### 🤖 AI 赋能，告别繁琐拖拽
-- **一句话生成**：内置 Claude Code 技能（AI 报表 / AI 大屏 / AI 仪表盘），自然语言描述需求，AI 自动生成专业可视化页面
-- **截图还原**：直接发送报表截图，AI 智能识别并还原成可编辑模板
-
-#### 📊 类 Excel 设计器，所见即所得
-- 采用 SpringBoot 脚手架项目，**一行依赖快速集成**
-- Web 版设计器，类 Excel 操作风格，纯**拖拽完成设计**，一分钟做出一个报表
-- 支持**多 Sheet 报表**、无限行无限列、冻结窗口、单元格复制粘贴
-- 内置 **SUMIFS、VLOOKUP、IF 等报表函数（Formula Lab）**，表达式自动计算合计，计算工作量大幅降低
-
-#### 🗂️ 复杂报表，一网打尽
-- **分组报表**：横向 / 纵向分组、多级循环表头、分组小计、合计
-- **交叉报表**：行列交叉统计，多维数据透视
-- **主子报表、明细表、多表头复杂报表**
-- **数据钻取、预警报表、条件查询报表、表达式报表**
-- **二维码 / 条形码报表**
-
-#### 🔗 数据联动与大数据
-- **30+ 数据源**：MySQL、Oracle、SqlServer、PostgreSQL，以及达梦、人大金仓等国产数据库，更支持 Hive、ClickHouse、Doris、TDengine、ES、MongoDB 等**大数据 / NoSQL**
-- 通过 **SQL、Raw Data API、JSON、WebSocket** 多种方式绑定数据源（Multi-Source）
-- 支持**图表联动、下钻、跳转**等交互，多数据集协同分析
-
-#### 🖨️ 精准打印 & 数据填报
-- **打印设计**：支持套打、背景打印，可设置边距、方向、页眉页脚，一键快速打印
-- 可实现**发票套打、不动产证、出入库单**等精准无缝打印
-- **数据填报**：在线填报录入，支持回写数据库，搭建轻量数据采集
-- 支持导出 **Excel、PDF、Word、图片** 等多种格式
-
-#### 📈 可视化大屏与仪表盘
-- 支持 **ECharts，28+ 图表类型**：柱形图、折线图、饼图、雷达图、漏斗图、地图、仪表盘等，在线拖拽设计
-- 大屏采用类 Word 风格，组件随意拖动，可设计监控大屏、物流大屏等**炫酷动态大屏**
-- 仪表盘 24 列栅格布局，搭配门户设计，打造交互式业务看板
-
-#### 📱 移动端 & 全场景适配
-- **移动报表**：报表、大屏、仪表盘均适配移动端，随时随地查看
-- 一次开发，**多端适配**（PC / 移动 / 大屏 / 门户）
-
-#### 🆓 永久免费，开源替代
-- **DataV、帆软、Tableau 的高性价比开源替代方案**，体验更好、上手更简单
-- [积木报表官网](http://jimureport.com/login) 在线免费制作报表和大屏，手机号一键注册即可永久使用。重要的是：**免费！免费！免费！**
+- **AI 赋能**：内置 Claude Code 技能（AI 报表 / 大屏 / 仪表盘），一句话或一张截图，自动生成可编辑的可视化页面。
+- **类 Excel 设计器**：Web 拖拽设计、所见即所得，支持多 Sheet、无限行列、冻结窗口，以及 SUMIFS / VLOOKUP / IF 等报表函数与表达式自动合计。
+- **复杂报表**：分组、交叉、主子、明细、多表头、数据钻取、预警、条件查询、二维码 / 条形码报表全覆盖。
+- **数据联动与大数据**：兼容 30+ 数据源（MySQL、Oracle、达梦、人大金仓，及 Hive、ClickHouse、Doris、ES、MongoDB 等），支持 SQL / API / JSON / WebSocket 多源绑定与图表联动下钻。
+- **精准打印与填报**：套打、背景打印，发票、证照无缝打印；在线填报回写数据库；导出 Excel / PDF / Word / 图片。
+- **大屏与仪表盘**：ECharts 28+ 图表，类 Word 风格拖拽大屏，24 列栅格仪表盘，搭配门户业务看板。
+- **移动端全场景**：报表、大屏、仪表盘一次开发，PC / 移动 / 大屏 / 门户多端适配。
+- **永久免费**：DataV、帆软、Tableau 的高性价比开源替代，[官网](http://jimureport.com/login)手机号注册即可免费使用。
 
 
 ## 快速链接
@@ -108,62 +76,13 @@ v2.3.4 | 2026-05-21
 | 资源 | 地址 |
 | --- | --- |
 | 🏠 官方网站 | http://jimureport.com |
-| 🎯 在线体验 | http://jimureport.com/login （账号 admin / 123456） |
+| 🎯 在线体验 | http://jimureport.com/login （手机号一键注册，免费使用） |
 | 📖 开发文档 | https://help.jimureport.com |
-| 🤖 AI 能力 | https://help.jimureport.com/ai/ |
+| 🤖 AI 能力 | https://help.jimureport.com/rumen/aiAssistant/ |
 | 🧩 Skills 开源仓库 | https://github.com/jeecgboot/skills |
 | 💡 提示词示例库 | [AI 报表](https://help.jimureport.com/rumen/jimureport-prompts) · [AI 大屏](https://help.jimureport.com/rumen/bigscreen-prompts) |
 | 🎬 视频教程 | http://jimureport.com/doc/video |
 | 🐛 问题反馈 | https://github.com/jeecgboot/JimuReport/issues/new |
-| 📋 功能规划 | http://jimureport.com/plan |
-
-
-## AI 智能生成
-
-> 积木报表 Claude Code 技能集合，一句话描述需求，AI 自动生成 **AI 报表**、**AI 大屏**、**AI 仪表盘**，覆盖数据可视化全场景，告别繁琐拖拽设计。
-
-#### 🚀 一键安装 Claude Code + 积木 Skills
-
-- **方式一：一行命令装齐全套环境**（国内镜像加速 · 一行命令装齐 Claude Code + JimuReport Skills + DeepSeek 模型接入，跑完即可使用）
-
-Windows (PowerShell)：
-
-```
-irm https://www.qiaoqiaoyun.com/claude/boot.ps1 | iex
-```
-
-macOS / Linux：
-
-```
-curl -fsSL https://www.qiaoqiaoyun.com/claude/install-claude-code.sh | bash
-```
-
-- 一次安装 Node.js · Python3.12+ · Git · Claude Code · JimuReport Skills
-- 接入 DeepSeek v4 作为模型后端（按 token 计费，[需自备 API Key](https://platform.deepseek.com/api_keys)）
-
-
-- **方式二：已装 Claude Code，只装 Skills**
-
-```
-git clone https://github.com/jeecgboot/skills.git ~/.claude/skills
-# 更新： cd ~/.claude/skills && git pull
-```
-
-安装完成后，新开终端运行 `claude`，即可用自然语言生成报表与大屏。
-
-
-> - Skills 开源仓库： https://github.com/jeecgboot/skills
-> - 技能官网： https://jimureport.com/skills
-
-#### 📦 技能清单
-
-| 技能 | 作用 | 一句话示例 |
-| --- | --- | --- |
-| `jimureport` | AI 报表生成器，类 Excel 复杂报表与打印，支持分组/交叉/主子/钻取/填报等 | 做一个按部门分组的工资统计报表 |
-| `jimubi-bigscreen` | AI 大屏生成器，1920×1080 全屏数据可视化，丰富图表与地图组件 | 做一个智慧物流监控大屏 |
-| `jimubi-dashboard` | AI 仪表盘生成器，24 列栅格布局数据看板 | 生成一个销售运营 KPI 看板 |
-
-> 提示词示例库： [AI 报表](https://help.jimureport.com/rumen/jimureport-prompts) · [AI 大屏](https://help.jimureport.com/rumen/bigscreen-prompts)
 
 
 ## 快速集成
@@ -239,6 +158,72 @@ git clone https://github.com/jeecgboot/skills.git ~/.claude/skills
 #### 第三步：初始化 SQL 和必要配置
 
 - https://help.jimureport.com/quick.html
+
+
+## 部署与运行
+
+#### jimureport-example 环境要求
+
+- 要求 JDK17+（本项目 SpringBoot3 架构）
+- 要求 MySQL5.7+，手工执行 `db/jimureport.mysql5.7.create.sql`，会自动创建库 jimureport
+- 项目配置：`src/main/resources/application-dev.yml`
+- 要求 Redis（可选）
+
+#### 绿色免安装版本
+
+- [集成版源码运行](https://github.com/jeecgboot/JimuReport/tree/master/jimureport-example)
+- [Docker 快速运行](https://help.jimureport.com/docker.html)
+- [绿色免安装版本](https://pan.baidu.com/s/1z9VmMz4HCc7GMVbzugetLQ?pwd=xafr)
+
+> 默认账号密码：admin / 123456，[支持改密码](https://help.jimureport.com/qa?_highlight=%E5%AF%86%E7%A0%81#4-jimureport-example%E9%A1%B9%E7%9B%AE%E6%80%8E%E4%B9%88%E4%BF%AE%E6%94%B9%E9%BB%98%E8%AE%A4%E5%AF%86%E7%A0%81)
+
+
+## AI 智能生成
+
+> 积木报表 Claude Code 技能集合，一句话描述需求，AI 自动生成 **AI 报表**、**AI 大屏**、**AI 仪表盘**，覆盖数据可视化全场景，告别繁琐拖拽设计。
+
+#### 🚀 一键安装 Claude Code + 积木 Skills
+
+- **方式一：一行命令装齐全套环境**（国内镜像加速 · 一行命令装齐 Claude Code + JimuReport Skills + DeepSeek 模型接入，跑完即可使用）
+
+Windows (PowerShell)：
+
+```
+irm https://www.qiaoqiaoyun.com/claude/boot.ps1 | iex
+```
+
+macOS / Linux：
+
+```
+curl -fsSL https://www.qiaoqiaoyun.com/claude/install-claude-code.sh | bash
+```
+
+- 一次安装 Node.js · Python3.12+ · Git · Claude Code · JimuReport Skills
+- 接入 DeepSeek v4 作为模型后端（按 token 计费，[需自备 API Key](https://platform.deepseek.com/api_keys)）
+
+
+- **方式二：已装 Claude Code，只装 Skills**
+
+```
+git clone https://github.com/jeecgboot/skills.git ~/.claude/skills
+# 更新： cd ~/.claude/skills && git pull
+```
+
+安装完成后，新开终端运行 `claude`，即可用自然语言生成报表与大屏。
+
+
+> - Skills 开源仓库： https://github.com/jeecgboot/skills
+> - 技能官网： https://jimureport.com/skills
+
+#### 📦 技能清单
+
+| 技能 | 作用 | 一句话示例 |
+| --- | --- | --- |
+| `jimureport` | AI 报表生成器，类 Excel 复杂报表与打印，支持分组/交叉/主子/钻取/填报等 | 做一个按部门分组的工资统计报表 |
+| `jimubi-bigscreen` | AI 大屏生成器，1920×1080 全屏数据可视化，丰富图表与地图组件 | 做一个智慧物流监控大屏 |
+| `jimubi-dashboard` | AI 仪表盘生成器，24 列栅格布局数据看板 | 生成一个销售运营 KPI 看板 |
+
+> 提示词示例库： [AI 报表](https://help.jimureport.com/rumen/jimureport-prompts) · [AI 大屏](https://help.jimureport.com/rumen/bigscreen-prompts)
 
 
 ## 数据库兼容
@@ -626,32 +611,12 @@ git clone https://github.com/jeecgboot/skills.git ~/.claude/skills
 </details>
 
 
-## 部署与运行
+## 社区与交流
 
-#### jimureport-example 环境要求
-
-- 要求 JDK17+（本项目 SpringBoot3 架构）
-- 要求 MySQL5.7+，手工执行 `db/jimureport.mysql5.7.create.sql`，会自动创建库 jimureport
-- 项目配置：`src/main/resources/application-dev.yml`
-- 要求 Redis（可选）
-
-#### 绿色免安装版本
-
-- [集成版源码运行](https://github.com/jeecgboot/JimuReport/tree/master/jimureport-example)
-- [Docker 快速运行](https://help.jimureport.com/docker.html)
-- [绿色免安装版本](https://pan.baidu.com/s/1z9VmMz4HCc7GMVbzugetLQ?pwd=xafr)
-
-> 默认账号密码：admin / 123456，[支持改密码](https://help.jimureport.com/qa?_highlight=%E5%AF%86%E7%A0%81#4-jimureport-example%E9%A1%B9%E7%9B%AE%E6%80%8E%E4%B9%88%E4%BF%AE%E6%94%B9%E9%BB%98%E8%AE%A4%E5%AF%86%E7%A0%81)
-
-
-## 技术文档与支持
-
-- 官方网站： http://jimureport.com
-- 在线体验： http://jimureport.com/login
-- 开发文档： https://help.jimureport.com
-- 快速入门： [快速集成积木报表](https://help.jimureport.com/quick.html) | [开发文档](https://help.jimureport.com) | [视频教程](http://jimureport.com/doc/video)
-- 技术支持： [发现 bug，请在 GitHub 上发 issue](https://github.com/jeecgboot/JimuReport/issues/new)
 - QQ 交流群： 873666520、854804538(满)、③596660273(满)、①212391162(满)、②929646317(满)
+- 技术支持： [发现 bug，请在 GitHub 上发 issue](https://github.com/jeecgboot/JimuReport/issues/new)
+
+> 更多资源见上方 [快速链接](#快速链接)。
 
 
 ## 产生背景
