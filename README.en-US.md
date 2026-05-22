@@ -559,14 +559,14 @@ More feature list: [http://jimureport.com/plan](http://jimureport.com/plan)
 </tr>
 <tr>
 <td><b>Print Design</b> · form overlay<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-9b6cd73719de68e0e45e1cf95cd6104a103.png"/></td>
-<td><b>Print Design</b> · background printing<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-8863ea4e67c02dbd844bb8022652f1be651.png"/></td>
+<td><b>Print Design</b> · hospital document printing<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-8863ea4e67c02dbd844bb8022652f1be651.png"/></td>
+</tr>
+<tr>
+<td><b>Data Reports</b> · cross-tab / totals<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-be956cbc19287e4df9cc46c9d15e96da99d.png"/></td>
+<td><b>Chart Reports</b> · 28 chart types<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-22096123c5b6a10a801967c33cc33a7af11.png"/></td>
 </tr>
 <tr>
 <td><b>Data Reports</b> · grouping<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-fe2ac0dfc3933734961924de0538b3049d2.png"/></td>
-<td><b>Data Reports</b> · cross-tab / totals<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-be956cbc19287e4df9cc46c9d15e96da99d.png"/></td>
-</tr>
-<tr>
-<td><b>Chart Reports</b> · 28 chart types<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-22096123c5b6a10a801967c33cc33a7af11.png"/></td>
 <td><b>Form Filling</b> · employee info form<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-0139eb90f2d255152aa69d3b37fcc85e4a2.png"/></td>
 </tr>
 <tr>
