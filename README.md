@@ -66,14 +66,15 @@ v2.3.4 | 2026-05-21
 
 >    **永久免费 · AI 智能 · 全场景覆盖** —— 一句话生成报表，类 Excel 拖拽设计，30+ 数据源、复杂报表、精准打印、数据填报、大屏仪表盘一应俱全，低代码时代的报表首选！
 
+- **快速集成**：采用 SpringBoot 的脚手架项目，都可以快速集成。
 - **AI 赋能**：内置 Claude Code 技能（AI 报表 / 大屏 / 仪表盘），一句话或一张截图，自动生成可编辑的可视化页面。
 - **类 Excel 设计器**：Web 拖拽设计、所见即所得，支持多 Sheet、无限行列、冻结窗口，以及 SUMIFS / VLOOKUP / IF 等报表函数与表达式自动合计。
 - **复杂报表**：分组、交叉、主子、明细、多表头、数据钻取、预警、条件查询、二维码 / 条形码报表全覆盖。
-- **数据联动与大数据**：兼容 30+ 数据源（MySQL、Oracle、达梦、人大金仓，及 Hive、ClickHouse、Doris、ES、MongoDB 等），支持 SQL / API / JSON / WebSocket 多源绑定与图表联动下钻。
+- **数据联动与大数据**：兼容 30+ 数据源（MySQL、Oracle、达梦、人大金仓，及 Hive、ClickHouse、Doris、ES、MongoDB、文件 / 多文件 等），支持 SQL / API / JSON / WebSocket 多源绑定与图表联动下钻。
+- **信创国产化**：全面支持信创环境，适配达梦、人大金仓、神通、华为高斯等国产数据库，可运行于麒麟、统信 UOS 等国产操作系统，助力国产化替代。
 - **精准打印与填报**：套打、背景打印，发票、证照无缝打印；在线填报回写数据库；导出 Excel / PDF / Word / 图片。
 - **大屏与仪表盘**：ECharts 28+ 图表，类 Word 风格拖拽大屏，24 列栅格仪表盘，搭配门户业务看板。
 - **移动端全场景**：报表、大屏、仪表盘一次开发，PC / 移动 / 大屏 / 门户多端适配。
-- **快速集成**：采用 SpringBoot 的脚手架项目，都可以快速集成。
 
 
 ## 快速链接
@@ -189,7 +190,9 @@ v2.3.4 | 2026-05-21
 
 #### 🚀 一键安装 Claude Code + 积木 Skills
 
-- **方式一：一行命令装齐全套环境**（国内镜像加速 · 一行命令装齐 Claude Code + JimuReport Skills + DeepSeek 模型接入，跑完即可使用）
+**方式一：一行命令装齐全套环境**
+
+国内镜像加速，一次装齐 Node.js、Python 3.12+、Git、Claude Code、JimuReport Skills，并接入 DeepSeek v4 模型后端（按 token 计费，[需自备 API Key](https://platform.deepseek.com/api_keys)），跑完即可使用。
 
 Windows (PowerShell)：
 
@@ -203,11 +206,7 @@ macOS / Linux：
 curl -fsSL https://www.qiaoqiaoyun.com/claude/install-claude-code.sh | bash
 ```
 
-- 一次安装 Node.js · Python3.12+ · Git · Claude Code · JimuReport Skills
-- 接入 DeepSeek v4 作为模型后端（按 token 计费，[需自备 API Key](https://platform.deepseek.com/api_keys)）
-
-
-- **方式二：已装 Claude Code，只装 Skills**
+**方式二：已装 Claude Code，只装 Skills**
 
 ```
 git clone https://github.com/jeecgboot/skills.git ~/.claude/skills
@@ -216,9 +215,7 @@ git clone https://github.com/jeecgboot/skills.git ~/.claude/skills
 
 安装完成后，新开终端运行 `claude`，即可用自然语言生成报表与大屏。
 
-
-> - Skills 开源仓库： https://github.com/jeecgboot/skills
-> - 技能官网： https://jimureport.com/skills
+> Skills 开源仓库： https://github.com/jeecgboot/skills · 技能官网： https://jimureport.com/skills
 
 #### 📦 技能清单
 
@@ -233,7 +230,7 @@ git clone https://github.com/jeecgboot/skills.git ~/.claude/skills
 
 ## 数据库兼容
 
-支持国产、常规、NoSQL 等 30 多种数据源，支持以 SQL 的方式去查询 csv、MongoDB 等非物理数据库。
+支持信创国产化数据库、常规数据库、NoSQL 等 30 多种数据源，全面适配达梦、人大金仓、神通、华为高斯等国产数据库，并支持以 SQL 的方式去查询 csv、MongoDB 等非物理数据库。
 
 |  数据库   |  支持   |
 | --- | --- |
