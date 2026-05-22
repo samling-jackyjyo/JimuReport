@@ -12,8 +12,8 @@ v2.3.4 | 2026-05-21
 [![](https://img.shields.io/badge/Blog-积木报表官网-blue.svg)](http://jimureport.com)
 [![](https://img.shields.io/badge/Docs-开发文档-9cf.svg)](https://help.jimureport.com)
 [![](https://img.shields.io/badge/AI-报表%20%26%20大屏-ff5722.svg)](https://jimureport.com/skills)
-[![GitHub stars](https://img.shields.io/github/stars/zhangdaiscott/JimuReport.svg?style=social&label=Stars)](https://github.com/jeecgboot/JimuReport)
-[![GitHub forks](https://img.shields.io/github/forks/zhangdaiscott/JimuReport.svg?style=social&label=Fork)](https://github.com/jeecgboot/JimuReport)
+[![GitHub stars](https://img.shields.io/github/stars/jeecgboot/JimuReport.svg?style=social&label=Stars)](https://github.com/jeecgboot/JimuReport)
+[![GitHub forks](https://img.shields.io/github/forks/jeecgboot/JimuReport.svg?style=social&label=Fork)](https://github.com/jeecgboot/JimuReport)
 
 
 > **免费的 AI 可视化报表。一句话描述需求，AI 自动生成报表与数据大屏；同时提供类 Excel 拖拽设计器，兼容 30 余种数据源，轻松应对各类复杂报表场景——帆软、Tableau 的高性价比开源替代。** ✨
@@ -46,11 +46,11 @@ v2.3.4 | 2026-05-21
 - **全场景覆盖**：JimuBI 同时支持大屏、仪表盘、门户、移动端，一次开发、多端适配；大屏采用类 Word 风格，组件随意拖动，轻松设计炫酷大屏。
 - **简单 · 易用 · 专业**：极大降低报表开发难度，缩短开发周期，节省成本。
 
-```
-专注于开源，打造 "专业 易用 AI智能" 的数据可视化报表、大屏、门户
-一句话 AI 生成：AI 报表 · AI 大屏 · AI 仪表盘
-开源协议：`功能免费、可以商用、代码不开放`
-```
+> **专注开源** —— 打造「专业 · 易用 · AI 智能」的数据可视化报表、大屏与门户
+>
+> **一句话 AI 生成** —— AI 报表 · AI 大屏 · AI 仪表盘
+>
+> **开源协议** —— 功能免费、可商用、代码不开放
 
 
 ## 产生背景
