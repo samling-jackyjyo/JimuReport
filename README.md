@@ -620,8 +620,8 @@ git clone https://github.com/jeecgboot/skills.git ~/.claude/skills
 <td><img width="100%" src="https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135630.png"/></td>
 </tr>
 <tr>
-<td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-fad98d42b2cf92f92a903c9cff7579f18ec.png"/></td>
-<td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-1bbc177c8397400c3e79bd90fd03b04e615.png"/></td>
+<td align="center"><b>移动仪表盘</b><br/><img height="500" src="https://oscimg.oschina.net/oscnet/up-6961e4ad456c4ab98414c11bc9f710b509f.png"/></td>
+<td align="center"><b>移动门户</b><br/><img height="500" src="https://oscimg.oschina.net/oscnet/up-af054839a6f1e2ce8d1cea1dd8a5c5e072a.png"/></td>
 </tr>
 </table>
 
