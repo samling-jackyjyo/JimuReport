@@ -19,6 +19,11 @@ v2.3.4 | 2026-05-21
 > **Free AI visualization reporting. Describe your needs in one sentence and AI generates reports and data screens automatically; it also offers an Excel-like drag-and-drop designer compatible with 30+ data sources, easily handling all kinds of complex reporting scenarios — a cost-effective open-source alternative to FineReport and Tableau.** ✨
 
 
+<p align="center">
+  <img width="90%" src="https://upload.jeecg.com/jeecg/jimusite/jimureport_2026.png" alt="JimuReport Feature Overview"/>
+</p>
+
+
 ## Contents
 
 - [Product Overview](#product-overview)
@@ -549,8 +554,8 @@ More feature list: [http://jimureport.com/plan](http://jimureport.com/plan)
 
 <table>
 <tr>
-<td width="50%"><b>Data Visualization</b> · solving various reporting challenges<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-a2a8557722593e6c5a5e8f015a0df2b70e9.png"/></td>
 <td width="50%"><b>Report Designer</b> · fully online design<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-752b454f64ed87c798b3e8a083fbd6622d4.gif"/></td>
+<td width="50%"><b>Data Reports</b> · cross-tab / totals<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-be956cbc19287e4df9cc46c9d15e96da99d.png"/></td>
 </tr>
 <tr>
 <td><b>Print Design</b> · form overlay<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-9b6cd73719de68e0e45e1cf95cd6104a103.png"/></td>
@@ -558,19 +563,15 @@ More feature list: [http://jimureport.com/plan](http://jimureport.com/plan)
 </tr>
 <tr>
 <td><b>Data Reports</b> · grouping<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-fe2ac0dfc3933734961924de0538b3049d2.png"/></td>
-<td><b>Data Reports</b> · cross-tab / totals<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-be956cbc19287e4df9cc46c9d15e96da99d.png"/></td>
-</tr>
-<tr>
 <td><b>Chart Reports</b> · visualization screen<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-3eda428ef182cb64a1a8e132e4bfeb87718.png"/></td>
+</tr>
+<tr>
 <td><b>Chart Reports</b> · 28 chart types<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-22096123c5b6a10a801967c33cc33a7af11.png"/></td>
-</tr>
-<tr>
 <td><b>Form Filling</b> · employee info form<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-0139eb90f2d255152aa69d3b37fcc85e4a2.png"/></td>
-<td><b>Form Filling</b> · sales order form<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-ded4831b7e25638f9ba6033a1f4ba87474f.png"/></td>
 </tr>
 <tr>
+<td><b>Form Filling</b> · sales order form<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-ded4831b7e25638f9ba6033a1f4ba87474f.png"/></td>
 <td><b>Form Filling</b> · master-detail form<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-f7c1a3a4cd6673038727ba49c3ee97e216b.png"/></td>
-<td></td>
 </tr>
 </table>
 
@@ -617,10 +618,6 @@ More feature list: [http://jimureport.com/plan](http://jimureport.com/plan)
 <tr>
 <td><img width="100%" src="https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240726105547.png"/></td>
 <td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-fad98d42b2cf92f92a903c9cff7579f18ec.png"/></td>
-</tr>
-<tr>
-<td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-1bbc177c8397400c3e79bd90fd03b04e615.png"/></td>
-<td></td>
 </tr>
 </table>
 
