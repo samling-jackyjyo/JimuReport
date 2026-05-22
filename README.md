@@ -22,16 +22,15 @@ v2.3.4 | 2026-05-21
 ## 目录
 
 - [产品介绍](#产品介绍)
+- [产生背景](#产生背景)
 - [为什么选择 JimuReport](#为什么选择-jimureport)
 - [快速链接](#快速链接)
 - [快速集成](#快速集成)
 - [部署与运行](#部署与运行)
 - [AI 智能生成](#ai-智能生成)
 - [数据库兼容](#数据库兼容)
-- [效果展示](#效果展示)
 - [功能清单](#功能清单)
-- [技术文档与支持](#技术文档与支持)
-- [产生背景](#产生背景)
+- [效果展示](#效果展示)
 - [授权协议](#授权协议)
 - [捐赠](#捐赠)
 - [免责声明](#免责声明)
@@ -57,6 +56,12 @@ v2.3.4 | 2026-05-21
 ```
 
 
+## 产生背景
+
+报表是企业 IT 服务必备的一项需求，但是行业内并没有一个免费好用的报表，大部分免费的报表功能较弱也不够智能，商业报表又很贵，所以有了研发一套免费报表的初衷。
+做一个什么样的报表呢？随着低代码概念的兴起，原先通过报表工具设计模板，再与系统集成的模式已经落伍，现在追求的是完全在线设计，可视化、傻瓜式的操作，实现简单易用又智能的报表！
+
+
 ## 为什么选择 JimuReport
 
 >    **永久免费 · AI 智能 · 全场景覆盖** —— 一句话生成报表，类 Excel 拖拽设计，30+ 数据源、复杂报表、精准打印、数据填报、大屏仪表盘一应俱全，低代码时代的报表首选！
@@ -68,7 +73,7 @@ v2.3.4 | 2026-05-21
 - **精准打印与填报**：套打、背景打印，发票、证照无缝打印；在线填报回写数据库；导出 Excel / PDF / Word / 图片。
 - **大屏与仪表盘**：ECharts 28+ 图表，类 Word 风格拖拽大屏，24 列栅格仪表盘，搭配门户业务看板。
 - **移动端全场景**：报表、大屏、仪表盘一次开发，PC / 移动 / 大屏 / 门户多端适配。
-- **永久免费**：DataV、帆软、Tableau 的高性价比开源替代，[官网](http://jimureport.com/login)手机号注册即可免费使用。
+- **快速集成**：采用 SpringBoot 的脚手架项目，都可以快速集成。
 
 
 ## 快速链接
@@ -80,9 +85,9 @@ v2.3.4 | 2026-05-21
 | 📖 开发文档 | https://help.jimureport.com |
 | 🤖 AI 能力 | https://help.jimureport.com/rumen/aiAssistant/ |
 | 🧩 Skills 开源仓库 | https://github.com/jeecgboot/skills |
-| 💡 提示词示例库 | [AI 报表](https://help.jimureport.com/rumen/jimureport-prompts) · [AI 大屏](https://help.jimureport.com/rumen/bigscreen-prompts) |
 | 🎬 视频教程 | http://jimureport.com/doc/video |
 | 🐛 问题反馈 | https://github.com/jeecgboot/JimuReport/issues/new |
+| 💬 QQ 交流群 | 873666520、854804538(满)、③596660273(满)、①212391162(满)、②929646317(满) |
 
 
 ## 快速集成
@@ -248,76 +253,6 @@ git clone https://github.com/jeecgboot/skills.git ~/.claude/skills
 |  Elasticsearch、MongoDB  |  √   |
 
 未提供脚本的数据库，可以参考 [文档](https://my.oschina.net/jeecg/blog/4905722) 自己转。
-
-
-## 效果展示
-
-### 报表工作台
-
-- 数据可视化（专业一流，数据可视化，解决各类报表难题）
-
-![](https://oscimg.oschina.net/oscnet/up-a2a8557722593e6c5a5e8f015a0df2b70e9.png)
-
-- 报表设计器（完全在线设计，简单易用）
-
-![](https://oscimg.oschina.net/oscnet/up-752b454f64ed87c798b3e8a083fbd6622d4.gif)
-
-- 打印设计（支持套打、背景打印）
-
-![](https://oscimg.oschina.net/oscnet/up-9b6cd73719de68e0e45e1cf95cd6104a103.png)
-![](https://oscimg.oschina.net/oscnet/up-8863ea4e67c02dbd844bb8022652f1be651.png)
-
-- 数据报表（支持分组、交叉、合计等复杂报表）
-
-![](https://oscimg.oschina.net/oscnet/up-fe2ac0dfc3933734961924de0538b3049d2.png)
-![](https://oscimg.oschina.net/oscnet/up-be956cbc19287e4df9cc46c9d15e96da99d.png)
-
-- 图形报表（目前支持 28 种图表）
-
-![](https://oscimg.oschina.net/oscnet/up-3eda428ef182cb64a1a8e132e4bfeb87718.png)
-![](https://oscimg.oschina.net/oscnet/up-22096123c5b6a10a801967c33cc33a7af11.png)
-
-- 数据填报
-
-![](https://oscimg.oschina.net/oscnet/up-0139eb90f2d255152aa69d3b37fcc85e4a2.png)
-![](https://oscimg.oschina.net/oscnet/up-ded4831b7e25638f9ba6033a1f4ba87474f.png)
-![](https://oscimg.oschina.net/oscnet/up-f7c1a3a4cd6673038727ba49c3ee97e216b.png)
-
-### 仪表盘和门户设计
-
-![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/darg20240726105556.png)
-![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135626.png)
-![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135619.png)
-![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135630.png)
-![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240726105547.png)
-![](https://oscimg.oschina.net/oscnet/up-fad98d42b2cf92f92a903c9cff7579f18ec.png)
-![](https://oscimg.oschina.net/oscnet/up-1bbc177c8397400c3e79bd90fd03b04e615.png)
-
-### 大屏设计效果
-
-![](https://oscimg.oschina.net/oscnet/up-402a6034124474bfef8dfc5b4b2bac1ce5c.png)
-![](https://oscimg.oschina.net/oscnet/up-6f7ba2e2ebbeea0d203db8d69fd87644c9f.png)
-![](https://oscimg.oschina.net/oscnet/up-ee8d34f318da466b8a6070a6e3111d12ce7.png)
-![](https://oscimg.oschina.net/oscnet/up-826f13c88f23c24ff218687f57f03d802a8.png)
-![](https://oscimg.oschina.net/oscnet/up-61dfc52c383f86a4055e20d030503bef93c.png)
-![](https://oscimg.oschina.net/oscnet/up-3aabd991c6c5af43f35b204d3ec94caf468.png)
-![](https://oscimg.oschina.net/oscnet/up-3b75fde569ab528d8607596e147b8bb7d5e.png)
-![](https://oscimg.oschina.net/oscnet/up-3b8d034341d0190156d63484ce09a863c9c.png)
-
-### 大屏高级效果展示
-
-- 点击详情时，弹出另外一个大屏列表页
-
-![](https://oscimg.oschina.net/oscnet/up-628509c6a8475cfde894696d17968fd2333.png)
-![](https://oscimg.oschina.net/oscnet/up-e516218c6ee7474153e3c8bc355a6d93b99.png)
-
-- 5 分钟自动切换下一个，炫酷的动态切换效果
-
-![](https://oscimg.oschina.net/oscnet/up-a02975ac2842f05d64d63865af29b7003ed.png)
-
-- 通过高德地图实现，结合业务数据，展示车辆实时位置
-
-![](https://oscimg.oschina.net/oscnet/up-eb73f595417712f2a51ddea4755fca3da67.png)
 
 
 ## 功能清单
@@ -611,18 +546,74 @@ git clone https://github.com/jeecgboot/skills.git ~/.claude/skills
 </details>
 
 
-## 社区与交流
+## 效果展示
 
-- QQ 交流群： 873666520、854804538(满)、③596660273(满)、①212391162(满)、②929646317(满)
-- 技术支持： [发现 bug，请在 GitHub 上发 issue](https://github.com/jeecgboot/JimuReport/issues/new)
+### 报表工作台
 
-> 更多资源见上方 [快速链接](#快速链接)。
+- 数据可视化（专业一流，数据可视化，解决各类报表难题）
 
+![](https://oscimg.oschina.net/oscnet/up-a2a8557722593e6c5a5e8f015a0df2b70e9.png)
 
-## 产生背景
+- 报表设计器（完全在线设计，简单易用）
 
-报表是企业 IT 服务必备的一项需求，但是行业内并没有一个免费好用的报表，大部分免费的报表功能较弱也不够智能，商业报表又很贵，所以有了研发一套免费报表的初衷。
-做一个什么样的报表呢？随着低代码概念的兴起，原先通过报表工具设计模板，再与系统集成的模式已经落伍，现在追求的是完全在线设计，可视化、傻瓜式的操作，实现简单易用又智能的报表！
+![](https://oscimg.oschina.net/oscnet/up-752b454f64ed87c798b3e8a083fbd6622d4.gif)
+
+- 打印设计（支持套打、背景打印）
+
+![](https://oscimg.oschina.net/oscnet/up-9b6cd73719de68e0e45e1cf95cd6104a103.png)
+![](https://oscimg.oschina.net/oscnet/up-8863ea4e67c02dbd844bb8022652f1be651.png)
+
+- 数据报表（支持分组、交叉、合计等复杂报表）
+
+![](https://oscimg.oschina.net/oscnet/up-fe2ac0dfc3933734961924de0538b3049d2.png)
+![](https://oscimg.oschina.net/oscnet/up-be956cbc19287e4df9cc46c9d15e96da99d.png)
+
+- 图形报表（目前支持 28 种图表）
+
+![](https://oscimg.oschina.net/oscnet/up-3eda428ef182cb64a1a8e132e4bfeb87718.png)
+![](https://oscimg.oschina.net/oscnet/up-22096123c5b6a10a801967c33cc33a7af11.png)
+
+- 数据填报
+
+![](https://oscimg.oschina.net/oscnet/up-0139eb90f2d255152aa69d3b37fcc85e4a2.png)
+![](https://oscimg.oschina.net/oscnet/up-ded4831b7e25638f9ba6033a1f4ba87474f.png)
+![](https://oscimg.oschina.net/oscnet/up-f7c1a3a4cd6673038727ba49c3ee97e216b.png)
+
+### 仪表盘和门户设计
+
+![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/darg20240726105556.png)
+![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135626.png)
+![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135619.png)
+![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135630.png)
+![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240726105547.png)
+![](https://oscimg.oschina.net/oscnet/up-fad98d42b2cf92f92a903c9cff7579f18ec.png)
+![](https://oscimg.oschina.net/oscnet/up-1bbc177c8397400c3e79bd90fd03b04e615.png)
+
+### 大屏设计效果
+
+![](https://oscimg.oschina.net/oscnet/up-402a6034124474bfef8dfc5b4b2bac1ce5c.png)
+![](https://oscimg.oschina.net/oscnet/up-6f7ba2e2ebbeea0d203db8d69fd87644c9f.png)
+![](https://oscimg.oschina.net/oscnet/up-ee8d34f318da466b8a6070a6e3111d12ce7.png)
+![](https://oscimg.oschina.net/oscnet/up-826f13c88f23c24ff218687f57f03d802a8.png)
+![](https://oscimg.oschina.net/oscnet/up-61dfc52c383f86a4055e20d030503bef93c.png)
+![](https://oscimg.oschina.net/oscnet/up-3aabd991c6c5af43f35b204d3ec94caf468.png)
+![](https://oscimg.oschina.net/oscnet/up-3b75fde569ab528d8607596e147b8bb7d5e.png)
+![](https://oscimg.oschina.net/oscnet/up-3b8d034341d0190156d63484ce09a863c9c.png)
+
+### 大屏高级效果展示
+
+- 点击详情时，弹出另外一个大屏列表页
+
+![](https://oscimg.oschina.net/oscnet/up-628509c6a8475cfde894696d17968fd2333.png)
+![](https://oscimg.oschina.net/oscnet/up-e516218c6ee7474153e3c8bc355a6d93b99.png)
+
+- 5 分钟自动切换下一个，炫酷的动态切换效果
+
+![](https://oscimg.oschina.net/oscnet/up-a02975ac2842f05d64d63865af29b7003ed.png)
+
+- 通过高德地图实现，结合业务数据，展示车辆实时位置
+
+![](https://oscimg.oschina.net/oscnet/up-eb73f595417712f2a51ddea4755fca3da67.png)
 
 
 ## 授权协议
