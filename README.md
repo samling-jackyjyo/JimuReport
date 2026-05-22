@@ -20,7 +20,7 @@ v2.3.4 | 2026-05-21
 
 
 <p align="center">
-  <img width="90%" src="https://upload.jeecg.com/jeecg/jimusite/jimureport_2026.png" alt="JimuReport 功能全景"/>
+  <img width="90%" src="https://upload.jeecg.com/jeecg/jimusite/jimureport_function_202605.webp" alt="JimuReport 功能全景"/>
 </p>
 
 
