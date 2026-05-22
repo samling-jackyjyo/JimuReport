@@ -562,53 +562,53 @@ More feature list: [http://jimureport.com/plan](http://jimureport.com/plan)
 </tr>
 </table>
 
-### Dashboard and Portal Design
-
-<table>
-<tr>
-<td width="33%"><img width="100%" src="https://jeecgos.oss-cn-beijing.aliyuncs.com/files/darg20240726105556.png"/></td>
-<td width="33%"><img width="100%" src="https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135626.png"/></td>
-<td width="33%"><img width="100%" src="https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135619.png"/></td>
-</tr>
-<tr>
-<td><img width="100%" src="https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135630.png"/></td>
-<td><img width="100%" src="https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240726105547.png"/></td>
-<td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-fad98d42b2cf92f92a903c9cff7579f18ec.png"/></td>
-</tr>
-<tr>
-<td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-1bbc177c8397400c3e79bd90fd03b04e615.png"/></td>
-<td></td>
-<td></td>
-</tr>
-</table>
-
 ### Big Screen Design Effects
 
 <table>
 <tr>
-<td width="33%"><img width="100%" src="https://oscimg.oschina.net/oscnet/up-402a6034124474bfef8dfc5b4b2bac1ce5c.png"/></td>
-<td width="33%"><img width="100%" src="https://oscimg.oschina.net/oscnet/up-6f7ba2e2ebbeea0d203db8d69fd87644c9f.png"/></td>
-<td width="33%"><img width="100%" src="https://oscimg.oschina.net/oscnet/up-ee8d34f318da466b8a6070a6e3111d12ce7.png"/></td>
+<td width="50%"><img width="100%" src="https://oscimg.oschina.net/oscnet/up-402a6034124474bfef8dfc5b4b2bac1ce5c.png"/></td>
+<td width="50%"><img width="100%" src="https://oscimg.oschina.net/oscnet/up-6f7ba2e2ebbeea0d203db8d69fd87644c9f.png"/></td>
 </tr>
 <tr>
+<td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-ee8d34f318da466b8a6070a6e3111d12ce7.png"/></td>
 <td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-826f13c88f23c24ff218687f57f03d802a8.png"/></td>
+</tr>
+<tr>
 <td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-61dfc52c383f86a4055e20d030503bef93c.png"/></td>
 <td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-3aabd991c6c5af43f35b204d3ec94caf468.png"/></td>
 </tr>
 <tr>
 <td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-3b75fde569ab528d8607596e147b8bb7d5e.png"/></td>
 <td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-3b8d034341d0190156d63484ce09a863c9c.png"/></td>
+</tr>
+<tr>
+<td><b>Drill-down Details</b> · click to pop up a big-screen list page<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-628509c6a8475cfde894696d17968fd2333.png"/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-e516218c6ee7474153e3c8bc355a6d93b99.png"/></td>
+<td><b>Dynamic Switching</b> · auto-switch every 5 minutes<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-a02975ac2842f05d64d63865af29b7003ed.png"/></td>
+</tr>
+<tr>
+<td><b>Gaode Maps</b> · real-time vehicle locations<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-eb73f595417712f2a51ddea4755fca3da67.png"/></td>
 <td></td>
 </tr>
 </table>
 
-### Advanced Big Screen Effects
+### Dashboard and Portal Design
 
 <table>
 <tr>
-<td width="33%"><b>Drill-down Details</b> · click to pop up a big-screen list page<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-628509c6a8475cfde894696d17968fd2333.png"/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-e516218c6ee7474153e3c8bc355a6d93b99.png"/></td>
-<td width="33%"><b>Dynamic Switching</b> · auto-switch every 5 minutes<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-a02975ac2842f05d64d63865af29b7003ed.png"/></td>
-<td width="33%"><b>Gaode Maps</b> · real-time vehicle locations<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-eb73f595417712f2a51ddea4755fca3da67.png"/></td>
+<td width="50%"><img width="100%" src="https://jeecgos.oss-cn-beijing.aliyuncs.com/files/darg20240726105556.png"/></td>
+<td width="50%"><img width="100%" src="https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135626.png"/></td>
+</tr>
+<tr>
+<td><img width="100%" src="https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135619.png"/></td>
+<td><img width="100%" src="https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135630.png"/></td>
+</tr>
+<tr>
+<td><img width="100%" src="https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240726105547.png"/></td>
+<td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-fad98d42b2cf92f92a903c9cff7579f18ec.png"/></td>
+</tr>
+<tr>
+<td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-1bbc177c8397400c3e79bd90fd03b04e615.png"/></td>
+<td></td>
 </tr>
 </table>
 
