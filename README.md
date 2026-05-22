@@ -558,8 +558,8 @@ git clone https://github.com/jeecgboot/skills.git ~/.claude/skills
 <td width="50%"><b>图形报表</b> · 可视化大屏<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-3eda428ef182cb64a1a8e132e4bfeb87718.png"/></td>
 </tr>
 <tr>
-<td><b>打印设计</b> · 套打<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-9b6cd73719de68e0e45e1cf95cd6104a103.png"/></td>
-<td><b>打印设计</b> · 医院单据打印<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-8863ea4e67c02dbd844bb8022652f1be651.png"/></td>
+<td><b>打印设计</b> · 医院单据打印<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-9b6cd73719de68e0e45e1cf95cd6104a103.png"/></td>
+<td><b>打印设计</b> · 套打<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-8863ea4e67c02dbd844bb8022652f1be651.png"/></td>
 </tr>
 <tr>
 <td><b>数据报表</b> · 交叉 / 合计<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-be956cbc19287e4df9cc46c9d15e96da99d.png"/></td>
