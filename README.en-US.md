@@ -221,9 +221,9 @@ Once installed, open a new terminal and run `claude` to generate reports and big
 
 | Skill | Purpose | One-Sentence Example |
 | --- | --- | --- |
-| `jimureport` | AI report generator: Excel-like complex reports and printing, supporting grouping / cross-tab / master-detail / drill-down / form filling | Create a salary statistics report grouped by department |
-| `jimubi-bigscreen` | AI big-screen generator: 1920×1080 full-screen data visualization with rich charts and map components | Create a smart logistics monitoring big screen |
-| `jimubi-dashboard` | AI dashboard generator: 24-column grid data board | Generate a sales operations KPI board |
+| `jimureport` | Generate a report from one sentence | Create a salary statistics report grouped by department |
+| `jimubi-bigscreen` | Generate a big screen from one sentence | Create a smart logistics monitoring big screen |
+| `jimubi-dashboard` | Generate a dashboard / portal from one sentence | Generate a sales operations KPI board |
 
 > Prompt examples: [AI Reports](https://help.jimureport.com/rumen/jimureport-prompts) · [AI Big Screens](https://help.jimureport.com/rumen/bigscreen-prompts)
 
@@ -553,12 +553,24 @@ More feature list: [http://jimureport.com/plan](http://jimureport.com/plan)
 <td width="50%"><b>Report Designer</b> · fully online design<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-752b454f64ed87c798b3e8a083fbd6622d4.gif"/></td>
 </tr>
 <tr>
-<td><b>Print Design</b> · form overlay / background<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-9b6cd73719de68e0e45e1cf95cd6104a103.png"/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-8863ea4e67c02dbd844bb8022652f1be651.png"/></td>
-<td><b>Data Reports</b> · grouping / cross-tab / totals<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-fe2ac0dfc3933734961924de0538b3049d2.png"/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-be956cbc19287e4df9cc46c9d15e96da99d.png"/></td>
+<td><b>Print Design</b> · form overlay<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-9b6cd73719de68e0e45e1cf95cd6104a103.png"/></td>
+<td><b>Print Design</b> · background printing<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-8863ea4e67c02dbd844bb8022652f1be651.png"/></td>
 </tr>
 <tr>
-<td><b>Chart Reports</b> · 28 chart types<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-3eda428ef182cb64a1a8e132e4bfeb87718.png"/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-22096123c5b6a10a801967c33cc33a7af11.png"/></td>
-<td><b>Form Filling</b> · online filling with write-back<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-0139eb90f2d255152aa69d3b37fcc85e4a2.png"/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-ded4831b7e25638f9ba6033a1f4ba87474f.png"/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-f7c1a3a4cd6673038727ba49c3ee97e216b.png"/></td>
+<td><b>Data Reports</b> · grouping<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-fe2ac0dfc3933734961924de0538b3049d2.png"/></td>
+<td><b>Data Reports</b> · cross-tab / totals<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-be956cbc19287e4df9cc46c9d15e96da99d.png"/></td>
+</tr>
+<tr>
+<td><b>Chart Reports</b> · visualization screen<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-3eda428ef182cb64a1a8e132e4bfeb87718.png"/></td>
+<td><b>Chart Reports</b> · 28 chart types<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-22096123c5b6a10a801967c33cc33a7af11.png"/></td>
+</tr>
+<tr>
+<td><b>Form Filling</b> · employee info form<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-0139eb90f2d255152aa69d3b37fcc85e4a2.png"/></td>
+<td><b>Form Filling</b> · sales order form<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-ded4831b7e25638f9ba6033a1f4ba87474f.png"/></td>
+</tr>
+<tr>
+<td><b>Form Filling</b> · master-detail form<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-f7c1a3a4cd6673038727ba49c3ee97e216b.png"/></td>
+<td></td>
 </tr>
 </table>
 
@@ -582,12 +594,12 @@ More feature list: [http://jimureport.com/plan](http://jimureport.com/plan)
 <td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-3b8d034341d0190156d63484ce09a863c9c.png"/></td>
 </tr>
 <tr>
-<td><b>Drill-down Details</b> · click to pop up a big-screen list page<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-628509c6a8475cfde894696d17968fd2333.png"/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-e516218c6ee7474153e3c8bc355a6d93b99.png"/></td>
-<td><b>Dynamic Switching</b> · auto-switch every 5 minutes<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-a02975ac2842f05d64d63865af29b7003ed.png"/></td>
+<td><b>Drill-down</b> · click to pop up a list page<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-628509c6a8475cfde894696d17968fd2333.png"/></td>
+<td><b>Drill-down List</b> · the popped-up detail screen<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-e516218c6ee7474153e3c8bc355a6d93b99.png"/></td>
 </tr>
 <tr>
+<td><b>Dynamic Switching</b> · auto-switch every 5 minutes<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-a02975ac2842f05d64d63865af29b7003ed.png"/></td>
 <td><b>Gaode Maps</b> · real-time vehicle locations<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-eb73f595417712f2a51ddea4755fca3da67.png"/></td>
-<td></td>
 </tr>
 </table>
 

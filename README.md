@@ -221,9 +221,9 @@ git clone https://github.com/jeecgboot/skills.git ~/.claude/skills
 
 | 技能 | 作用 | 一句话示例 |
 | --- | --- | --- |
-| `jimureport` | AI 报表生成器，类 Excel 复杂报表与打印，支持分组/交叉/主子/钻取/填报等 | 做一个按部门分组的工资统计报表 |
-| `jimubi-bigscreen` | AI 大屏生成器，1920×1080 全屏数据可视化，丰富图表与地图组件 | 做一个智慧物流监控大屏 |
-| `jimubi-dashboard` | AI 仪表盘生成器，24 列栅格布局数据看板 | 生成一个销售运营 KPI 看板 |
+| `jimureport` | 一句话生成报表 | 做一个按部门分组的工资统计报表 |
+| `jimubi-bigscreen` | 一句话生成大屏 | 做一个智慧物流监控大屏 |
+| `jimubi-dashboard` | 一句话生成仪表盘 / 门户 | 生成一个销售运营 KPI 看板 |
 
 > 提示词示例库： [AI 报表](https://help.jimureport.com/rumen/jimureport-prompts) · [AI 大屏](https://help.jimureport.com/rumen/bigscreen-prompts)
 
@@ -553,12 +553,24 @@ git clone https://github.com/jeecgboot/skills.git ~/.claude/skills
 <td width="50%"><b>报表设计器</b> · 完全在线设计<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-752b454f64ed87c798b3e8a083fbd6622d4.gif"/></td>
 </tr>
 <tr>
-<td><b>打印设计</b> · 套打 / 背景打印<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-9b6cd73719de68e0e45e1cf95cd6104a103.png"/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-8863ea4e67c02dbd844bb8022652f1be651.png"/></td>
-<td><b>数据报表</b> · 分组 / 交叉 / 合计<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-fe2ac0dfc3933734961924de0538b3049d2.png"/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-be956cbc19287e4df9cc46c9d15e96da99d.png"/></td>
+<td><b>打印设计</b> · 套打<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-9b6cd73719de68e0e45e1cf95cd6104a103.png"/></td>
+<td><b>打印设计</b> · 背景打印<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-8863ea4e67c02dbd844bb8022652f1be651.png"/></td>
 </tr>
 <tr>
-<td><b>图形报表</b> · 28 种图表<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-3eda428ef182cb64a1a8e132e4bfeb87718.png"/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-22096123c5b6a10a801967c33cc33a7af11.png"/></td>
-<td><b>数据填报</b> · 在线填报回写<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-0139eb90f2d255152aa69d3b37fcc85e4a2.png"/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-ded4831b7e25638f9ba6033a1f4ba87474f.png"/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-f7c1a3a4cd6673038727ba49c3ee97e216b.png"/></td>
+<td><b>数据报表</b> · 分组<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-fe2ac0dfc3933734961924de0538b3049d2.png"/></td>
+<td><b>数据报表</b> · 交叉 / 合计<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-be956cbc19287e4df9cc46c9d15e96da99d.png"/></td>
+</tr>
+<tr>
+<td><b>图形报表</b> · 可视化大屏<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-3eda428ef182cb64a1a8e132e4bfeb87718.png"/></td>
+<td><b>图形报表</b> · 28 种图表<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-22096123c5b6a10a801967c33cc33a7af11.png"/></td>
+</tr>
+<tr>
+<td><b>数据填报</b> · 员工信息登记表<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-0139eb90f2d255152aa69d3b37fcc85e4a2.png"/></td>
+<td><b>数据填报</b> · 销售订单填报<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-ded4831b7e25638f9ba6033a1f4ba87474f.png"/></td>
+</tr>
+<tr>
+<td><b>数据填报</b> · 主子表单填报<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-f7c1a3a4cd6673038727ba49c3ee97e216b.png"/></td>
+<td></td>
 </tr>
 </table>
 
@@ -582,12 +594,12 @@ git clone https://github.com/jeecgboot/skills.git ~/.claude/skills
 <td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-3b8d034341d0190156d63484ce09a863c9c.png"/></td>
 </tr>
 <tr>
-<td><b>下钻详情</b> · 点击弹出大屏列表页<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-628509c6a8475cfde894696d17968fd2333.png"/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-e516218c6ee7474153e3c8bc355a6d93b99.png"/></td>
-<td><b>动态切换</b> · 5 分钟自动切换<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-a02975ac2842f05d64d63865af29b7003ed.png"/></td>
+<td><b>下钻详情</b> · 点击弹出列表页<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-628509c6a8475cfde894696d17968fd2333.png"/></td>
+<td><b>下钻列表</b> · 弹出的大屏明细页<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-e516218c6ee7474153e3c8bc355a6d93b99.png"/></td>
 </tr>
 <tr>
+<td><b>动态切换</b> · 5 分钟自动切换<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-a02975ac2842f05d64d63865af29b7003ed.png"/></td>
 <td><b>高德地图</b> · 实时车辆位置<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-eb73f595417712f2a51ddea4755fca3da67.png"/></td>
-<td></td>
 </tr>
 </table>
 
