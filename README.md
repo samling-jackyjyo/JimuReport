@@ -595,11 +595,11 @@ git clone https://github.com/jeecgboot/skills.git ~/.claude/skills
 <td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-3b8d034341d0190156d63484ce09a863c9c.png"/></td>
 </tr>
 <tr>
-<td><b>下钻详情</b> · 点击弹出列表页<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-628509c6a8475cfde894696d17968fd2333.png"/></td>
-<td><b>下钻列表</b> · 弹出的大屏明细页<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-e516218c6ee7474153e3c8bc355a6d93b99.png"/></td>
+<td><b>全屏弹窗</b> · 点击弹出列表页<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-5a4d68eb1999f84a4a0205c2904a94b24ad.gif"/></td>
+<td><b>自适应弹框</b> · 弹出的大屏明细页<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-1868dddbbef4ddeccb4099b92c68636d20e.gif"/></td>
 </tr>
 <tr>
-<td><b>动态切换</b> · 5 分钟自动切换<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-a02975ac2842f05d64d63865af29b7003ed.png"/></td>
+<td><b>5 分钟切换屏幕</b> · 5 分钟自动切换<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-4f8f995c055810a91eda0327b737d61f6c9.gif"/></td>
 <td><b>高德地图</b> · 实时车辆位置<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-eb73f595417712f2a51ddea4755fca3da67.png"/></td>
 </tr>
 </table>
