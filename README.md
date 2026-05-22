@@ -555,7 +555,7 @@ git clone https://github.com/jeecgboot/skills.git ~/.claude/skills
 <table>
 <tr>
 <td width="50%"><b>报表设计器</b> · 完全在线设计<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-752b454f64ed87c798b3e8a083fbd6622d4.gif"/></td>
-<td width="50%"><b>数据报表</b> · 交叉 / 合计<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-be956cbc19287e4df9cc46c9d15e96da99d.png"/></td>
+<td width="50%"><b>图形报表</b> · 可视化大屏<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-3eda428ef182cb64a1a8e132e4bfeb87718.png"/></td>
 </tr>
 <tr>
 <td><b>打印设计</b> · 套打<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-9b6cd73719de68e0e45e1cf95cd6104a103.png"/></td>
@@ -563,7 +563,7 @@ git clone https://github.com/jeecgboot/skills.git ~/.claude/skills
 </tr>
 <tr>
 <td><b>数据报表</b> · 分组<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-fe2ac0dfc3933734961924de0538b3049d2.png"/></td>
-<td><b>图形报表</b> · 可视化大屏<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-3eda428ef182cb64a1a8e132e4bfeb87718.png"/></td>
+<td><b>数据报表</b> · 交叉 / 合计<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-be956cbc19287e4df9cc46c9d15e96da99d.png"/></td>
 </tr>
 <tr>
 <td><b>图形报表</b> · 28 种图表<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-22096123c5b6a10a801967c33cc33a7af11.png"/></td>
@@ -616,8 +616,8 @@ git clone https://github.com/jeecgboot/skills.git ~/.claude/skills
 <td><img width="100%" src="https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135630.png"/></td>
 </tr>
 <tr>
-<td><img width="100%" src="https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240726105547.png"/></td>
 <td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-fad98d42b2cf92f92a903c9cff7579f18ec.png"/></td>
+<td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-1bbc177c8397400c3e79bd90fd03b04e615.png"/></td>
 </tr>
 </table>
 
