@@ -574,8 +574,8 @@ git clone https://github.com/jeecgboot/skills.git ~/.claude/skills
 <td><b>数据填报</b> · 主子表单填报<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-f7c1a3a4cd6673038727ba49c3ee97e216b.png"/></td>
 </tr>
 <tr>
-<td align="center"><b>移动报表</b> · 移动端浏览<br/><img height="500" src="https://oscimg.oschina.net/oscnet/up-b50ba7d60fdd9c88106a192af5d4b94144b.png"/></td>
-<td align="center"><b>移动报表</b> · 移动端填报<br/><img height="500" src="https://oscimg.oschina.net/oscnet/up-00827ce793c32519e6e9ad0fe364bc4f9a5.png"/></td>
+<td align="center"><b>移动报表</b> · 移动端报表<br/><img height="500" src="https://oscimg.oschina.net/oscnet/up-b50ba7d60fdd9c88106a192af5d4b94144b.png"/></td>
+<td align="center"><b>移动报表</b> · 移动端图表<br/><img height="500" src="https://oscimg.oschina.net/oscnet/up-00827ce793c32519e6e9ad0fe364bc4f9a5.png"/></td>
 </tr>
 </table>
 
