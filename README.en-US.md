@@ -555,10 +555,10 @@ More feature list: [http://jimureport.com/plan](http://jimureport.com/plan)
 <table>
 <tr>
 <td width="50%"><b>Report Designer</b> · fully online design<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-752b454f64ed87c798b3e8a083fbd6622d4.gif"/></td>
-<td width="50%"><b>Chart Reports</b> · visualization screen<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-3eda428ef182cb64a1a8e132e4bfeb87718.png"/></td>
+<td width="50%"><b>Chart Reports</b> · 28+ chart types<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-3eda428ef182cb64a1a8e132e4bfeb87718.png"/></td>
 </tr>
 <tr>
-<td><b>Print Design</b> · hospital document printing<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-9b6cd73719de68e0e45e1cf95cd6104a103.png"/></td>
+<td><b>Data Reports</b> · grouping<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-fe2ac0dfc3933734961924de0538b3049d2.png"/></td>
 <td><b>Print Design</b> · form overlay<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-8863ea4e67c02dbd844bb8022652f1be651.png"/></td>
 </tr>
 <tr>
@@ -566,7 +566,7 @@ More feature list: [http://jimureport.com/plan](http://jimureport.com/plan)
 <td><b>Chart Reports</b> · 28 chart types<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-22096123c5b6a10a801967c33cc33a7af11.png"/></td>
 </tr>
 <tr>
-<td><b>Data Reports</b> · grouping<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-fe2ac0dfc3933734961924de0538b3049d2.png"/></td>
+<td><b>Print Design</b> · hospital document printing<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-9b6cd73719de68e0e45e1cf95cd6104a103.png"/></td>
 <td><b>Form Filling</b> · employee info form<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-0139eb90f2d255152aa69d3b37fcc85e4a2.png"/></td>
 </tr>
 <tr>

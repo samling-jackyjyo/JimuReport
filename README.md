@@ -555,10 +555,10 @@ git clone https://github.com/jeecgboot/skills.git ~/.claude/skills
 <table>
 <tr>
 <td width="50%"><b>报表设计器</b> · 完全在线设计<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-752b454f64ed87c798b3e8a083fbd6622d4.gif"/></td>
-<td width="50%"><b>图形报表</b> · 可视化大屏<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-3eda428ef182cb64a1a8e132e4bfeb87718.png"/></td>
+<td width="50%"><b>图形报表</b> · 支持28+种图表<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-3eda428ef182cb64a1a8e132e4bfeb87718.png"/></td>
 </tr>
 <tr>
-<td><b>打印设计</b> · 医院单据打印<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-9b6cd73719de68e0e45e1cf95cd6104a103.png"/></td>
+<td><b>数据报表</b> · 分组<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-fe2ac0dfc3933734961924de0538b3049d2.png"/></td>
 <td><b>打印设计</b> · 套打<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-8863ea4e67c02dbd844bb8022652f1be651.png"/></td>
 </tr>
 <tr>
@@ -566,7 +566,7 @@ git clone https://github.com/jeecgboot/skills.git ~/.claude/skills
 <td><b>图形报表</b> · 28 种图表<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-22096123c5b6a10a801967c33cc33a7af11.png"/></td>
 </tr>
 <tr>
-<td><b>数据报表</b> · 分组<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-fe2ac0dfc3933734961924de0538b3049d2.png"/></td>
+<td><b>打印设计</b> · 医院单据打印<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-9b6cd73719de68e0e45e1cf95cd6104a103.png"/></td>
 <td><b>数据填报</b> · 员工信息登记表<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-0139eb90f2d255152aa69d3b37fcc85e4a2.png"/></td>
 </tr>
 <tr>
