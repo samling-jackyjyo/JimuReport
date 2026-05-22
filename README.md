@@ -547,70 +547,70 @@ git clone https://github.com/jeecgboot/skills.git ~/.claude/skills
 
 ### 报表工作台
 
-- 数据可视化（专业一流，数据可视化，解决各类报表难题）
-
-![](https://oscimg.oschina.net/oscnet/up-a2a8557722593e6c5a5e8f015a0df2b70e9.png)
-
-- 报表设计器（完全在线设计，简单易用）
-
-![](https://oscimg.oschina.net/oscnet/up-752b454f64ed87c798b3e8a083fbd6622d4.gif)
-
-- 打印设计（支持套打、背景打印）
-
-![](https://oscimg.oschina.net/oscnet/up-9b6cd73719de68e0e45e1cf95cd6104a103.png)
-![](https://oscimg.oschina.net/oscnet/up-8863ea4e67c02dbd844bb8022652f1be651.png)
-
-- 数据报表（支持分组、交叉、合计等复杂报表）
-
-![](https://oscimg.oschina.net/oscnet/up-fe2ac0dfc3933734961924de0538b3049d2.png)
-![](https://oscimg.oschina.net/oscnet/up-be956cbc19287e4df9cc46c9d15e96da99d.png)
-
-- 图形报表（目前支持 28 种图表）
-
-![](https://oscimg.oschina.net/oscnet/up-3eda428ef182cb64a1a8e132e4bfeb87718.png)
-![](https://oscimg.oschina.net/oscnet/up-22096123c5b6a10a801967c33cc33a7af11.png)
-
-- 数据填报
-
-![](https://oscimg.oschina.net/oscnet/up-0139eb90f2d255152aa69d3b37fcc85e4a2.png)
-![](https://oscimg.oschina.net/oscnet/up-ded4831b7e25638f9ba6033a1f4ba87474f.png)
-![](https://oscimg.oschina.net/oscnet/up-f7c1a3a4cd6673038727ba49c3ee97e216b.png)
+<table>
+<tr>
+<td width="50%"><b>数据可视化</b> · 解决各类报表难题<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-a2a8557722593e6c5a5e8f015a0df2b70e9.png"/></td>
+<td width="50%"><b>报表设计器</b> · 完全在线设计<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-752b454f64ed87c798b3e8a083fbd6622d4.gif"/></td>
+</tr>
+<tr>
+<td><b>打印设计</b> · 套打 / 背景打印<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-9b6cd73719de68e0e45e1cf95cd6104a103.png"/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-8863ea4e67c02dbd844bb8022652f1be651.png"/></td>
+<td><b>数据报表</b> · 分组 / 交叉 / 合计<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-fe2ac0dfc3933734961924de0538b3049d2.png"/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-be956cbc19287e4df9cc46c9d15e96da99d.png"/></td>
+</tr>
+<tr>
+<td><b>图形报表</b> · 28 种图表<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-3eda428ef182cb64a1a8e132e4bfeb87718.png"/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-22096123c5b6a10a801967c33cc33a7af11.png"/></td>
+<td><b>数据填报</b> · 在线填报回写<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-0139eb90f2d255152aa69d3b37fcc85e4a2.png"/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-ded4831b7e25638f9ba6033a1f4ba87474f.png"/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-f7c1a3a4cd6673038727ba49c3ee97e216b.png"/></td>
+</tr>
+</table>
 
 ### 仪表盘和门户设计
 
-![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/darg20240726105556.png)
-![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135626.png)
-![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135619.png)
-![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135630.png)
-![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240726105547.png)
-![](https://oscimg.oschina.net/oscnet/up-fad98d42b2cf92f92a903c9cff7579f18ec.png)
-![](https://oscimg.oschina.net/oscnet/up-1bbc177c8397400c3e79bd90fd03b04e615.png)
+<table>
+<tr>
+<td width="33%"><img width="100%" src="https://jeecgos.oss-cn-beijing.aliyuncs.com/files/darg20240726105556.png"/></td>
+<td width="33%"><img width="100%" src="https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135626.png"/></td>
+<td width="33%"><img width="100%" src="https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135619.png"/></td>
+</tr>
+<tr>
+<td><img width="100%" src="https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135630.png"/></td>
+<td><img width="100%" src="https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240726105547.png"/></td>
+<td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-fad98d42b2cf92f92a903c9cff7579f18ec.png"/></td>
+</tr>
+<tr>
+<td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-1bbc177c8397400c3e79bd90fd03b04e615.png"/></td>
+<td></td>
+<td></td>
+</tr>
+</table>
 
 ### 大屏设计效果
 
-![](https://oscimg.oschina.net/oscnet/up-402a6034124474bfef8dfc5b4b2bac1ce5c.png)
-![](https://oscimg.oschina.net/oscnet/up-6f7ba2e2ebbeea0d203db8d69fd87644c9f.png)
-![](https://oscimg.oschina.net/oscnet/up-ee8d34f318da466b8a6070a6e3111d12ce7.png)
-![](https://oscimg.oschina.net/oscnet/up-826f13c88f23c24ff218687f57f03d802a8.png)
-![](https://oscimg.oschina.net/oscnet/up-61dfc52c383f86a4055e20d030503bef93c.png)
-![](https://oscimg.oschina.net/oscnet/up-3aabd991c6c5af43f35b204d3ec94caf468.png)
-![](https://oscimg.oschina.net/oscnet/up-3b75fde569ab528d8607596e147b8bb7d5e.png)
-![](https://oscimg.oschina.net/oscnet/up-3b8d034341d0190156d63484ce09a863c9c.png)
+<table>
+<tr>
+<td width="33%"><img width="100%" src="https://oscimg.oschina.net/oscnet/up-402a6034124474bfef8dfc5b4b2bac1ce5c.png"/></td>
+<td width="33%"><img width="100%" src="https://oscimg.oschina.net/oscnet/up-6f7ba2e2ebbeea0d203db8d69fd87644c9f.png"/></td>
+<td width="33%"><img width="100%" src="https://oscimg.oschina.net/oscnet/up-ee8d34f318da466b8a6070a6e3111d12ce7.png"/></td>
+</tr>
+<tr>
+<td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-826f13c88f23c24ff218687f57f03d802a8.png"/></td>
+<td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-61dfc52c383f86a4055e20d030503bef93c.png"/></td>
+<td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-3aabd991c6c5af43f35b204d3ec94caf468.png"/></td>
+</tr>
+<tr>
+<td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-3b75fde569ab528d8607596e147b8bb7d5e.png"/></td>
+<td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-3b8d034341d0190156d63484ce09a863c9c.png"/></td>
+<td></td>
+</tr>
+</table>
 
 ### 大屏高级效果展示
 
-- 点击详情时，弹出另外一个大屏列表页
-
-![](https://oscimg.oschina.net/oscnet/up-628509c6a8475cfde894696d17968fd2333.png)
-![](https://oscimg.oschina.net/oscnet/up-e516218c6ee7474153e3c8bc355a6d93b99.png)
-
-- 5 分钟自动切换下一个，炫酷的动态切换效果
-
-![](https://oscimg.oschina.net/oscnet/up-a02975ac2842f05d64d63865af29b7003ed.png)
-
-- 通过高德地图实现，结合业务数据，展示车辆实时位置
-
-![](https://oscimg.oschina.net/oscnet/up-eb73f595417712f2a51ddea4755fca3da67.png)
+<table>
+<tr>
+<td width="33%"><b>下钻详情</b> · 点击弹出大屏列表页<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-628509c6a8475cfde894696d17968fd2333.png"/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-e516218c6ee7474153e3c8bc355a6d93b99.png"/></td>
+<td width="33%"><b>动态切换</b> · 5 分钟自动切换<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-a02975ac2842f05d64d63865af29b7003ed.png"/></td>
+<td width="33%"><b>高德地图</b> · 实时车辆位置<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-eb73f595417712f2a51ddea4755fca3da67.png"/></td>
+</tr>
+</table>
 
 
 ## 授权协议

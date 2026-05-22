@@ -547,70 +547,70 @@ More feature list: [http://jimureport.com/plan](http://jimureport.com/plan)
 
 ### Report Workbench
 
-- Data Visualization (professional and first-class, solving various reporting challenges)
-
-![](https://oscimg.oschina.net/oscnet/up-a2a8557722593e6c5a5e8f015a0df2b70e9.png)
-
-- Report Designer (completely online design, simple and easy to use)
-
-![](https://oscimg.oschina.net/oscnet/up-752b454f64ed87c798b3e8a083fbd6622d4.gif)
-
-- Print Design (supports form overlay, background printing)
-
-![](https://oscimg.oschina.net/oscnet/up-9b6cd73719de68e0e45e1cf95cd6104a103.png)
-![](https://oscimg.oschina.net/oscnet/up-8863ea4e67c02dbd844bb8022652f1be651.png)
-
-- Data Reports (supports complex reports such as grouping, cross-tabulation, totals)
-
-![](https://oscimg.oschina.net/oscnet/up-fe2ac0dfc3933734961924de0538b3049d2.png)
-![](https://oscimg.oschina.net/oscnet/up-be956cbc19287e4df9cc46c9d15e96da99d.png)
-
-- Chart Reports (currently supports 28 chart types)
-
-![](https://oscimg.oschina.net/oscnet/up-3eda428ef182cb64a1a8e132e4bfeb87718.png)
-![](https://oscimg.oschina.net/oscnet/up-22096123c5b6a10a801967c33cc33a7af11.png)
-
-- Form Filling
-
-![](https://oscimg.oschina.net/oscnet/up-0139eb90f2d255152aa69d3b37fcc85e4a2.png)
-![](https://oscimg.oschina.net/oscnet/up-ded4831b7e25638f9ba6033a1f4ba87474f.png)
-![](https://oscimg.oschina.net/oscnet/up-f7c1a3a4cd6673038727ba49c3ee97e216b.png)
+<table>
+<tr>
+<td width="50%"><b>Data Visualization</b> · solving various reporting challenges<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-a2a8557722593e6c5a5e8f015a0df2b70e9.png"/></td>
+<td width="50%"><b>Report Designer</b> · fully online design<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-752b454f64ed87c798b3e8a083fbd6622d4.gif"/></td>
+</tr>
+<tr>
+<td><b>Print Design</b> · form overlay / background<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-9b6cd73719de68e0e45e1cf95cd6104a103.png"/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-8863ea4e67c02dbd844bb8022652f1be651.png"/></td>
+<td><b>Data Reports</b> · grouping / cross-tab / totals<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-fe2ac0dfc3933734961924de0538b3049d2.png"/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-be956cbc19287e4df9cc46c9d15e96da99d.png"/></td>
+</tr>
+<tr>
+<td><b>Chart Reports</b> · 28 chart types<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-3eda428ef182cb64a1a8e132e4bfeb87718.png"/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-22096123c5b6a10a801967c33cc33a7af11.png"/></td>
+<td><b>Form Filling</b> · online filling with write-back<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-0139eb90f2d255152aa69d3b37fcc85e4a2.png"/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-ded4831b7e25638f9ba6033a1f4ba87474f.png"/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-f7c1a3a4cd6673038727ba49c3ee97e216b.png"/></td>
+</tr>
+</table>
 
 ### Dashboard and Portal Design
 
-![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/darg20240726105556.png)
-![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135626.png)
-![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135619.png)
-![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135630.png)
-![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240726105547.png)
-![](https://oscimg.oschina.net/oscnet/up-fad98d42b2cf92f92a903c9cff7579f18ec.png)
-![](https://oscimg.oschina.net/oscnet/up-1bbc177c8397400c3e79bd90fd03b04e615.png)
+<table>
+<tr>
+<td width="33%"><img width="100%" src="https://jeecgos.oss-cn-beijing.aliyuncs.com/files/darg20240726105556.png"/></td>
+<td width="33%"><img width="100%" src="https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135626.png"/></td>
+<td width="33%"><img width="100%" src="https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135619.png"/></td>
+</tr>
+<tr>
+<td><img width="100%" src="https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135630.png"/></td>
+<td><img width="100%" src="https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240726105547.png"/></td>
+<td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-fad98d42b2cf92f92a903c9cff7579f18ec.png"/></td>
+</tr>
+<tr>
+<td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-1bbc177c8397400c3e79bd90fd03b04e615.png"/></td>
+<td></td>
+<td></td>
+</tr>
+</table>
 
 ### Big Screen Design Effects
 
-![](https://oscimg.oschina.net/oscnet/up-402a6034124474bfef8dfc5b4b2bac1ce5c.png)
-![](https://oscimg.oschina.net/oscnet/up-6f7ba2e2ebbeea0d203db8d69fd87644c9f.png)
-![](https://oscimg.oschina.net/oscnet/up-ee8d34f318da466b8a6070a6e3111d12ce7.png)
-![](https://oscimg.oschina.net/oscnet/up-826f13c88f23c24ff218687f57f03d802a8.png)
-![](https://oscimg.oschina.net/oscnet/up-61dfc52c383f86a4055e20d030503bef93c.png)
-![](https://oscimg.oschina.net/oscnet/up-3aabd991c6c5af43f35b204d3ec94caf468.png)
-![](https://oscimg.oschina.net/oscnet/up-3b75fde569ab528d8607596e147b8bb7d5e.png)
-![](https://oscimg.oschina.net/oscnet/up-3b8d034341d0190156d63484ce09a863c9c.png)
+<table>
+<tr>
+<td width="33%"><img width="100%" src="https://oscimg.oschina.net/oscnet/up-402a6034124474bfef8dfc5b4b2bac1ce5c.png"/></td>
+<td width="33%"><img width="100%" src="https://oscimg.oschina.net/oscnet/up-6f7ba2e2ebbeea0d203db8d69fd87644c9f.png"/></td>
+<td width="33%"><img width="100%" src="https://oscimg.oschina.net/oscnet/up-ee8d34f318da466b8a6070a6e3111d12ce7.png"/></td>
+</tr>
+<tr>
+<td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-826f13c88f23c24ff218687f57f03d802a8.png"/></td>
+<td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-61dfc52c383f86a4055e20d030503bef93c.png"/></td>
+<td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-3aabd991c6c5af43f35b204d3ec94caf468.png"/></td>
+</tr>
+<tr>
+<td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-3b75fde569ab528d8607596e147b8bb7d5e.png"/></td>
+<td><img width="100%" src="https://oscimg.oschina.net/oscnet/up-3b8d034341d0190156d63484ce09a863c9c.png"/></td>
+<td></td>
+</tr>
+</table>
 
 ### Advanced Big Screen Effects
 
-- When clicking details, another big-screen list page pops up
-
-![](https://oscimg.oschina.net/oscnet/up-628509c6a8475cfde894696d17968fd2333.png)
-![](https://oscimg.oschina.net/oscnet/up-e516218c6ee7474153e3c8bc355a6d93b99.png)
-
-- Automatically switches to the next one every 5 minutes with cool dynamic transitions
-
-![](https://oscimg.oschina.net/oscnet/up-a02975ac2842f05d64d63865af29b7003ed.png)
-
-- Powered by Gaode Maps, combined with business data to display real-time vehicle locations
-
-![](https://oscimg.oschina.net/oscnet/up-eb73f595417712f2a51ddea4755fca3da67.png)
+<table>
+<tr>
+<td width="33%"><b>Drill-down Details</b> · click to pop up a big-screen list page<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-628509c6a8475cfde894696d17968fd2333.png"/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-e516218c6ee7474153e3c8bc355a6d93b99.png"/></td>
+<td width="33%"><b>Dynamic Switching</b> · auto-switch every 5 minutes<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-a02975ac2842f05d64d63865af29b7003ed.png"/></td>
+<td width="33%"><b>Gaode Maps</b> · real-time vehicle locations<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-eb73f595417712f2a51ddea4755fca3da67.png"/></td>
+</tr>
+</table>
 
 
 ## License
