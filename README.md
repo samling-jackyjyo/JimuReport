@@ -574,8 +574,8 @@ git clone https://github.com/jeecgboot/skills.git ~/.claude/skills
 <td><b>数据填报</b> · 主子表单填报<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-f7c1a3a4cd6673038727ba49c3ee97e216b.png"/></td>
 </tr>
 <tr>
-<td align="center"><b>移动报表</b> · 移动端报表<br/><img height="500" src="https://oscimg.oschina.net/oscnet/up-b50ba7d60fdd9c88106a192af5d4b94144b.png"/></td>
-<td align="center"><b>移动报表</b> · 移动端图表<br/><img height="500" src="https://oscimg.oschina.net/oscnet/up-00827ce793c32519e6e9ad0fe364bc4f9a5.png"/></td>
+<td align="center"><b>移动报表</b> · 移动端报表<br/><img height="420" src="https://oscimg.oschina.net/oscnet/up-b50ba7d60fdd9c88106a192af5d4b94144b.png"/></td>
+<td align="center"><b>移动报表</b> · 移动端图表<br/><img height="420" src="https://oscimg.oschina.net/oscnet/up-00827ce793c32519e6e9ad0fe364bc4f9a5.png"/></td>
 </tr>
 </table>
 
@@ -620,8 +620,8 @@ git clone https://github.com/jeecgboot/skills.git ~/.claude/skills
 <td><img width="100%" src="https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135630.png"/></td>
 </tr>
 <tr>
-<td align="center"><b>移动仪表盘</b><br/><img height="500" src="https://oscimg.oschina.net/oscnet/up-6961e4ad456c4ab98414c11bc9f710b509f.png"/></td>
-<td align="center"><b>移动门户</b><br/><img height="500" src="https://oscimg.oschina.net/oscnet/up-af054839a6f1e2ce8d1cea1dd8a5c5e072a.png"/></td>
+<td align="center"><b>移动仪表盘</b><br/><img height="420" src="https://oscimg.oschina.net/oscnet/up-6961e4ad456c4ab98414c11bc9f710b509f.png"/></td>
+<td align="center"><b>移动门户</b><br/><img height="420" src="https://oscimg.oschina.net/oscnet/up-af054839a6f1e2ce8d1cea1dd8a5c5e072a.png"/></td>
 </tr>
 </table>
 

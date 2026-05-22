@@ -574,8 +574,8 @@ More feature list: [http://jimureport.com/plan](http://jimureport.com/plan)
 <td><b>Form Filling</b> · master-detail form<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-f7c1a3a4cd6673038727ba49c3ee97e216b.png"/></td>
 </tr>
 <tr>
-<td align="center"><b>Mobile Reports</b> · mobile report<br/><img height="500" src="https://oscimg.oschina.net/oscnet/up-b50ba7d60fdd9c88106a192af5d4b94144b.png"/></td>
-<td align="center"><b>Mobile Reports</b> · mobile charts<br/><img height="500" src="https://oscimg.oschina.net/oscnet/up-00827ce793c32519e6e9ad0fe364bc4f9a5.png"/></td>
+<td align="center"><b>Mobile Reports</b> · mobile report<br/><img height="420" src="https://oscimg.oschina.net/oscnet/up-b50ba7d60fdd9c88106a192af5d4b94144b.png"/></td>
+<td align="center"><b>Mobile Reports</b> · mobile charts<br/><img height="420" src="https://oscimg.oschina.net/oscnet/up-00827ce793c32519e6e9ad0fe364bc4f9a5.png"/></td>
 </tr>
 </table>
 
@@ -620,8 +620,8 @@ More feature list: [http://jimureport.com/plan](http://jimureport.com/plan)
 <td><img width="100%" src="https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135630.png"/></td>
 </tr>
 <tr>
-<td align="center"><b>Mobile Dashboard</b><br/><img height="500" src="https://oscimg.oschina.net/oscnet/up-6961e4ad456c4ab98414c11bc9f710b509f.png"/></td>
-<td align="center"><b>Mobile Portal</b><br/><img height="500" src="https://oscimg.oschina.net/oscnet/up-af054839a6f1e2ce8d1cea1dd8a5c5e072a.png"/></td>
+<td align="center"><b>Mobile Dashboard</b><br/><img height="420" src="https://oscimg.oschina.net/oscnet/up-6961e4ad456c4ab98414c11bc9f710b509f.png"/></td>
+<td align="center"><b>Mobile Portal</b><br/><img height="420" src="https://oscimg.oschina.net/oscnet/up-af054839a6f1e2ce8d1cea1dd8a5c5e072a.png"/></td>
 </tr>
 </table>
 
