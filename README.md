@@ -573,6 +573,10 @@ git clone https://github.com/jeecgboot/skills.git ~/.claude/skills
 <td><b>数据填报</b> · 销售订单填报<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-ded4831b7e25638f9ba6033a1f4ba87474f.png"/></td>
 <td><b>数据填报</b> · 主子表单填报<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-f7c1a3a4cd6673038727ba49c3ee97e216b.png"/></td>
 </tr>
+<tr>
+<td><b>移动报表</b> · 移动端浏览<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-23b05cbe01b56e322726aedcc52f42e8556.jpg"/></td>
+<td></td>
+</tr>
 </table>
 
 ### 大屏设计效果

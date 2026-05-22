@@ -573,6 +573,10 @@ More feature list: [http://jimureport.com/plan](http://jimureport.com/plan)
 <td><b>Form Filling</b> · sales order form<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-ded4831b7e25638f9ba6033a1f4ba87474f.png"/></td>
 <td><b>Form Filling</b> · master-detail form<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-f7c1a3a4cd6673038727ba49c3ee97e216b.png"/></td>
 </tr>
+<tr>
+<td><b>Mobile Reports</b> · view on mobile<br/><img width="100%" src="https://oscimg.oschina.net/oscnet/up-23b05cbe01b56e322726aedcc52f42e8556.jpg"/></td>
+<td></td>
+</tr>
 </table>
 
 ### Big Screen Design Effects
