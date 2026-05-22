@@ -1,6 +1,7 @@
 [中文](./README.md) | English
 
 
+
 # JimuReport (Free Report Tool)
 
 v2.3.4 | 2026-05-21
@@ -9,44 +10,92 @@ v2.3.4 | 2026-05-21
 [![](https://img.shields.io/badge/Author-北京国炬信息技术有限公司-orange.svg)](https://guojusoft.com)
 [![](https://img.shields.io/badge/version-2.3.4-brightgreen.svg)](https://github.com/jeecgboot/JimuReport)
 [![](https://img.shields.io/badge/Blog-积木报表官网-blue.svg)](http://jimureport.com)
-[![GitHub stars](https://img.shields.io/github/stars/zhangdaiscott/JimuReport.svg?style=social&label=Stars)](https://github.com/jeecgboot/JimuReport)
-[![GitHub forks](https://img.shields.io/github/forks/zhangdaiscott/JimuReport.svg?style=social&label=Fork)](https://github.com/jeecgboot/JimuReport)
+[![](https://img.shields.io/badge/Docs-Documentation-9cf.svg)](https://help.jimureport.com)
+[![](https://img.shields.io/badge/AI-Report%20%26%20Big%20Screen-ff5722.svg)](https://jimureport.com/skills)
+[![GitHub stars](https://img.shields.io/github/stars/jeecgboot/JimuReport.svg?style=social&label=Stars)](https://github.com/jeecgboot/JimuReport)
+[![GitHub forks](https://img.shields.io/github/forks/jeecgboot/JimuReport.svg?style=social&label=Fork)](https://github.com/jeecgboot/JimuReport)
 
 
-JimuReport is a free data visualization reporting tool that includes reports, printing, dashboards, and data screens. Design completely online like building blocks! Features include: complex reports, print design, chart reports, portal design, dashboard design, etc.!
-It consists of two main modules: JimuReport focuses on traditional complex reports and printing, while JimuBI focuses on data dashboard and dashboard visualization design!
-
--   JimuReport uses a Web-based report designer with Excel-like operation style, completing report design through drag-and-drop, what you see is what you get.
--   Leading enterprise-level Web reports, supporting various complex reports, focusing on solving enterprise reporting challenges.
--   JimuBI is a tool focused on digital twins and data visualization, aiming to present real-time business data in an intuitive, dynamic and visually appealing way, especially good at creating interactive dashboards and data screens.
--   JimuBI is the only one in the industry that achieves full-scenario coverage: supports dashboards (cool dynamics), data screens (professional analysis), portals (interactive business dashboards), and mobile (view anytime, anywhere), truly achieving "develop once, adapt to multiple terminals".
--   Dashboards adopt a Word-like style, allowing you to drag components freely and design however you want, creating cool dashboards like Baidu and Alibaba!
--   Adhering to the product concept of "simple, easy-to-use, professional", greatly reducing report development difficulty, shortening development cycles, and saving costs.
-
-```
-Focus on open source, creating "professional, easy-to-use, AI-intelligent" data visualization reports, dashboards, portals
-Open source license: `Free functionality, commercial use allowed, code not open`
-```
+> **Free AI visualization reporting. Describe your needs in one sentence and AI generates reports and data screens automatically; it also offers an Excel-like drag-and-drop designer compatible with 30+ data sources, easily handling all kinds of complex reporting scenarios — a cost-effective open-source alternative to FineReport and Tableau.** ✨
 
 
+## Contents
 
-Technical Documentation
------------------------------------
+- [Product Overview](#product-overview)
+- [Background](#background)
+- [Why Choose JimuReport](#why-choose-jimureport)
+- [Quick Links](#quick-links)
+- [Quick Integration](#quick-integration)
+- [Deployment & Running](#deployment--running)
+- [AI-Powered Generation](#ai-powered-generation)
+- [Database Compatibility](#database-compatibility)
+- [Feature List](#feature-list)
+- [Screenshots](#screenshots)
+- [License](#license)
+- [Donation](#donation)
+- [Disclaimer](#disclaimer)
 
-- Official Website: http://jimureport.com
-- Online Demo: http://jimureport.com/login
-- Quick Start: [Quick Integration of JimuReport](https://help.jimureport.com/quick.html) | [Development Documentation](https://help.jimureport.com) | [Video Tutorials](http://jimureport.com/doc/video)
-- Technical Support: [Found a bug? Please report an issue on GitHub](https://github.com/jeecgboot/JimuReport/issues/new)
-- QQ Groups: 854804538、③596660273(full)、①212391162(full)、②929646317(full)
+
+## Product Overview
+
+JimuReport is a **free data visualization reporting tool** that brings reports, printing, big screens, and dashboards together — design entirely online, like building with blocks. It consists of two modules: **JimuReport** focuses on traditional complex reports and printing, while **JimuBI** focuses on big-screen and dashboard visualization.
+
+- **AI-Powered Generation**: Built-in Claude Code skills (AI report / big screen / dashboard) generate professional visualization pages from a single sentence — no more tedious drag-and-drop.
+- **Excel-like Designer**: Web-based drag-and-drop design, WYSIWYG, focused on solving enterprise-grade complex reporting challenges.
+- **Enterprise Advanced Features**: grouping / cross-tab / master-detail reports, **multi-sheet reports**, data drill-down, **one-click printing**, form-overlay & invoice printing, **data filling**, **mobile reports**, QR/barcodes, and more.
+- **Full-Scenario Coverage**: JimuBI supports big screens, dashboards, portals, and mobile — develop once, adapt everywhere; big screens use a Word-like style with freely draggable components.
+- **Simple · Easy · Professional**: greatly lowers report development difficulty, shortens development cycles, and saves costs.
+
+> **Open Source First** — building "professional, easy-to-use, AI-intelligent" data visualization reports, big screens, and portals
+>
+> **One-Sentence AI Generation** — AI Report · AI Big Screen · AI Dashboard
+>
+> **License** — free to use, commercial use allowed, source code not open
 
 
+## Background
 
-Quick Integration of JimuReport
------------------------------------
-> Supports quick integration into SpringBoot scaffold projects. SpringBoot3 requires JDK17+, SpringBoot2 requires JDK8+
+Reports are an indispensable part of enterprise IT, yet the industry has long lacked a tool that is both free and genuinely good — free options are mostly weak and not intelligent enough, while commercial reports are expensive. That is exactly why we set out to build a free reporting tool.
+
+So what kind of report should it be? With the rise of low-code, the traditional model of designing templates in a tool and then integrating them with systems has become outdated. What we pursue is fully online design with visual, zero-barrier operation — truly simple, easy to use, and intelligent.
+
+And with the arrival of the AI wave, JimuReport goes a step further by introducing **AI capabilities** — built-in Claude Code skills let you generate reports, big screens, and dashboards from a single sentence, shifting report design from "dragging" to "conversation" for true intelligence and efficiency.
+
+
+## Why Choose JimuReport
+
+>    **Permanently free · AI-intelligent · full-scenario** — generate reports from a single sentence, design with Excel-like drag-and-drop, with 30+ data sources, complex reports, precise printing, data filling, big screens and dashboards all in one. The reporting tool of choice for the low-code era!
+
+- **Quick Integration**: works with any SpringBoot scaffold project.
+- **AI-Powered**: built-in Claude Code skills (AI report / big screen / dashboard) generate editable visualization pages from a single sentence or a screenshot.
+- **Excel-like Designer**: web drag-and-drop, WYSIWYG; supports multi-sheet, unlimited rows/columns, frozen panes, plus report functions like SUMIFS / VLOOKUP / IF with automatic totals.
+- **Complex Reports**: full coverage of grouping, cross-tab, master-detail, detail, multi-header, data drill-down, alerts, conditional query, and QR/barcode reports.
+- **Data Binding & Big Data**: compatible with 30+ data sources (MySQL, Oracle, DM, KingbaseES, plus Hive, ClickHouse, Doris, ES, MongoDB, files / multi-files, etc.), with SQL / API / JSON / WebSocket multi-source binding and chart linkage & drill-down.
+- **Localization (Xinchuang)**: full support for the Xinchuang ecosystem, adapting to domestic databases such as DM, KingbaseES, ShenTong, and Huawei GaussDB, and running on domestic operating systems like Kylin and UOS.
+- **Precise Printing & Form Filling**: form-overlay and background printing, seamless invoice/certificate printing; online form filling with write-back to the database; export to Excel / PDF / Word / image.
+- **Big Screens & Dashboards**: ECharts with 28+ chart types, Word-style drag-and-drop big screens, 24-column grid dashboards, paired with portal business boards.
+- **Mobile & Full-Scenario**: reports, big screens, and dashboards — develop once, adapt to PC / mobile / big screen / portal.
+
+
+## Quick Links
+
+| Resource | URL |
+| --- | --- |
+| 🏠 Official Website | http://jimureport.com |
+| 🎯 Online Demo | http://jimureport.com/login (one-click mobile registration, free to use) |
+| 📖 Documentation | https://help.jimureport.com |
+| 🤖 AI Capabilities | https://help.jimureport.com/rumen/aiAssistant/ |
+| 🧩 Skills Repository | https://github.com/jeecgboot/skills |
+| 🎬 Video Tutorials | http://jimureport.com/doc/video |
+| 🐛 Issues | https://github.com/jeecgboot/JimuReport/issues/new |
+| 💬 QQ Groups | 873666520, 854804538(full), ③596660273(full), ①212391162(full), ②929646317(full) |
+
+
+## Quick Integration
+
+> Supports quick integration into SpringBoot scaffold projects. SpringBoot3 requires JDK17+, SpringBoot2 requires JDK8+. See the [integration docs](https://help.jimureport.com/quick.html) for details.
 
 #### Step 1: Add JimuReport Dependencies
-
 
 -   springboot3
 
@@ -90,7 +139,7 @@ Quick Integration of JimuReport
  </dependency>
 ```
 
-#### Step 2: Add JimuBI Dependencies (Dashboard and Data Screens)
+#### Step 2: Add JimuBI Dependencies (Dashboards and Big Screens)
 
 -   springboot3
 
@@ -117,62 +166,71 @@ Quick Integration of JimuReport
 - https://help.jimureport.com/quick.html
 
 
+## Deployment & Running
 
-jimureport-example Environment Requirements
------------------------------------
+#### jimureport-example Environment Requirements
 
 - Requires JDK17+ (this project uses SpringBoot3 architecture)
-- Requires MySQL 5.7+, manually execute db/jimureport.mysql5.7.create.sql, will automatically create jimureport database
-- Project configuration: src/main/resources/application-dev.yml
+- Requires MySQL 5.7+; manually execute `db/jimureport.mysql5.7.create.sql`, which automatically creates the jimureport database
+- Project configuration: `src/main/resources/application-dev.yml`
 - Requires Redis (optional)
 
-
-Green Installation-Free Version
------------------------------------
+#### Green Installation-Free Version
 
 - [Integrated Source Code Run](https://github.com/jeecgboot/JimuReport/tree/master/jimureport-example)
 - [Docker Quick Run](https://help.jimureport.com/docker.html)
 - [Green Installation-Free Version](https://pan.baidu.com/s/1z9VmMz4HCc7GMVbzugetLQ?pwd=xafr)
 
-> Default account and password: admin/123456, [Password change supported](https://help.jimureport.com/qa?_highlight=%E5%AF%86%E7%A0%81#4-jimureport-example%E9%A1%B9%E7%9B%AE%E6%80%8E%E4%B9%88%E4%BF%AE%E6%94%B9%E9%BB%98%E8%AE%A4%E5%AF%86%E7%A0%81)
+> Default account / password: admin / 123456, [password change supported](https://help.jimureport.com/qa?_highlight=%E5%AF%86%E7%A0%81#4-jimureport-example%E9%A1%B9%E7%9B%AE%E6%80%8E%E4%B9%88%E4%BF%AE%E6%94%B9%E9%BB%98%E8%AE%A4%E5%AF%86%E7%A0%81)
 
 
+## AI-Powered Generation
 
-License Agreement
------------------------------------
+> A collection of JimuReport Claude Code skills: describe your needs in one sentence and AI generates **AI reports**, **AI big screens**, and **AI dashboards**, covering the full data-visualization spectrum — no more tedious drag-and-drop.
 
-The open source version is released under the LGPL license. If you cannot accept LGPL and need to use this project for commercial purposes without retaining copyright information (preview "Powered by JimuReport", "JimuReport Logo" and other copyright and links), you need to purchase [commercial license](http://jimureport.com/vip) to protect your legal rights.
+#### 🚀 One-Click Install: Claude Code + JimuReport Skills
+
+**Option 1: Install the full environment with a single command**
+
+Mirror-accelerated for users in China. Installs Node.js, Python 3.12+, Git, Claude Code, and JimuReport Skills in one go, and connects DeepSeek v4 as the model backend (billed per token, [bring your own API Key](https://platform.deepseek.com/api_keys)). Ready to use once it finishes.
+
+Windows (PowerShell):
+
+```
+irm https://www.qiaoqiaoyun.com/claude/boot.ps1 | iex
+```
+
+macOS / Linux:
+
+```
+curl -fsSL https://www.qiaoqiaoyun.com/claude/install-claude-code.sh | bash
+```
+
+**Option 2: Already have Claude Code, install Skills only**
+
+```
+git clone https://github.com/jeecgboot/skills.git ~/.claude/skills
+# Update: cd ~/.claude/skills && git pull
+```
+
+Once installed, open a new terminal and run `claude` to generate reports and big screens with natural language.
+
+> Skills repository: https://github.com/jeecgboot/skills · Skills website: https://jimureport.com/skills
+
+#### 📦 Skills Catalog
+
+| Skill | Purpose | One-Sentence Example |
+| --- | --- | --- |
+| `jimureport` | AI report generator: Excel-like complex reports and printing, supporting grouping / cross-tab / master-detail / drill-down / form filling | Create a salary statistics report grouped by department |
+| `jimubi-bigscreen` | AI big-screen generator: 1920×1080 full-screen data visualization with rich charts and map components | Create a smart logistics monitoring big screen |
+| `jimubi-dashboard` | AI dashboard generator: 24-column grid data board | Generate a sales operations KPI board |
+
+> Prompt examples: [AI Reports](https://help.jimureport.com/rumen/jimureport-prompts) · [AI Big Screens](https://help.jimureport.com/rumen/bigscreen-prompts)
 
 
-Background
------------------------------------
-Reports are an essential requirement for enterprise IT services, but there is no free and easy-to-use reporting tool in the industry. Most free reports have weak functionality and are not intelligent enough, while commercial reports are expensive. This is why we had the original intention to develop a set of free reporting tools.
-What kind of report should we make? With the rise of the low-code concept, the previous mode of designing templates through reporting tools and then integrating them with systems has become outdated. What we pursue now is completely online design, visual, fool-proof operations, and simple, easy-to-use and intelligent reports!
+## Database Compatibility
 
-
-
-Why Choose JimuReport?
------------------------------------
->    Permanently free, supports various complex reports, and features fool-proof online design, very intelligent. In the era of low-code, this is your first choice!
-
-- Can be quickly integrated into SpringBoot scaffold projects
-- Web-based designer with Excel-like operation style, completing report design through drag-and-drop
-- Bind data sources to templates through SQL, API and other methods. Also supports expressions and automatic calculation of totals, greatly reducing calculation workload
-- High development efficiency, fool-proof online report design, design a report in one minute, simple yet powerful
-- Supports ECharts, currently supports 28 chart types, online drag-and-drop design, supports SQL and API data sources
-- Supports complex reports such as grouping, cross-tabulation, totals, expressions, etc.
-- Supports print design (supports form overlay, background printing, etc.) Can set print margins, orientation, headers and footers, one-click quick printing, and can achieve invoice overlay printing, real estate certificates and other precise, seamless printing
-- Supports exporting Excel, PDF, Word, image and other format files
-- Visual charts, dashboard designer for large screen design, supports rich data source connections and mobile terminals, quickly create charts and portal design through drag-and-drop; supports multiple chart types: column charts, line charts, scatter plots, pie charts, ring charts, area charts, funnel charts, progress charts, dashboards, radar charts, maps, etc.
-- Can design various types of documents and large screens, such as inventory receipts, sales orders, financial reports, contracts, monitoring screens, tourism data screens, etc.
-- Large screen designer supports dozens of chart styles, can be freely spliced and combined to design cool large screens
-- Data visualization, open source alternative to DataV and FineReport, with better experience and simpler usage than FineReport
-- [JimuReport Official Website](http://jimureport.com/login) allows you to create reports and large screens online for free. One-click registration with mobile number for permanent use. Large screens adopt Word-like style, you can drag components freely and design however you want, creating cool visual screens like Baidu and Alibaba! The important thing is: Free! Free! Free!
-
-
-Database Compatibility
------------------------------------
-Supports more than 30 data sources including domestic, conventional, and NoSQL databases. Supports querying CSV, MongoDB and other non-physical databases using SQL.
+Supports 30+ data sources including Xinchuang/localized databases, conventional databases, and NoSQL. Fully adapts to domestic databases such as DM, KingbaseES, ShenTong, and Huawei GaussDB, and supports querying non-physical databases like CSV and MongoDB via SQL.
 
 |  Database   |  Support   |
 | --- | --- |
@@ -191,129 +249,31 @@ Supports more than 30 data sources including domestic, conventional, and NoSQL d
 |  SQLite, TiDB, Doris, ClickHouse, MongoDB-BI   |  √   |
 |  Elasticsearch, MongoDB  |  √   |
 
-For databases without provided scripts, you can refer to the [documentation](https://my.oschina.net/jeecg/blog/4905722) to convert them yourself.
+For databases without provided scripts, refer to the [documentation](https://my.oschina.net/jeecg/blog/4905722) to convert them yourself.
 
 
+## Feature List
 
+More feature list: [http://jimureport.com/plan](http://jimureport.com/plan)
 
-
-Report Workbench
------------------------------------
-
-- Data Visualization (Professional and first-class, data visualization, solving various reporting challenges)
-
-![](https://oscimg.oschina.net/oscnet/up-a2a8557722593e6c5a5e8f015a0df2b70e9.png)
-
-
-- Report Designer (Completely online design, simple and easy to use)
-
-![](https://oscimg.oschina.net/oscnet/up-752b454f64ed87c798b3e8a083fbd6622d4.gif)
-
-- Print Design (Supports form overlay, background printing)
-
-![](https://oscimg.oschina.net/oscnet/up-9b6cd73719de68e0e45e1cf95cd6104a103.png)
-![](https://oscimg.oschina.net/oscnet/up-8863ea4e67c02dbd844bb8022652f1be651.png)
-
-- Data Reports (Supports complex reports such as grouping, cross-tabulation, totals, etc.)
-
-![](https://oscimg.oschina.net/oscnet/up-fe2ac0dfc3933734961924de0538b3049d2.png)
-![](https://oscimg.oschina.net/oscnet/up-be956cbc19287e4df9cc46c9d15e96da99d.png)
-
-- Chart Reports (Currently supports 28 chart types)
-  ![](https://oscimg.oschina.net/oscnet/up-3eda428ef182cb64a1a8e132e4bfeb87718.png)
-  ![](https://oscimg.oschina.net/oscnet/up-22096123c5b6a10a801967c33cc33a7af11.png)
-
-
-- Form Filling
-
-![](https://oscimg.oschina.net/oscnet/up-0139eb90f2d255152aa69d3b37fcc85e4a2.png)
-
-![](https://oscimg.oschina.net/oscnet/up-ded4831b7e25638f9ba6033a1f4ba87474f.png)
-
-![](https://oscimg.oschina.net/oscnet/up-f7c1a3a4cd6673038727ba49c3ee97e216b.png)
-
-
-
-Dashboard and Portal Design
------------------------------------
-
-![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/darg20240726105556.png)
-
-![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135626.png)
-
-![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135619.png)
-
-![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135630.png)
-
-![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240726105547.png)
-
-![](https://oscimg.oschina.net/oscnet/up-fad98d42b2cf92f92a903c9cff7579f18ec.png)
-
-![](https://oscimg.oschina.net/oscnet/up-1bbc177c8397400c3e79bd90fd03b04e615.png)
-
-
-
-
-
-
-Large Screen Design Effects
------------------------------------
-
-
-![](https://oscimg.oschina.net/oscnet/up-402a6034124474bfef8dfc5b4b2bac1ce5c.png)
-
-
-![](https://oscimg.oschina.net/oscnet/up-6f7ba2e2ebbeea0d203db8d69fd87644c9f.png)
-
-
-![](https://oscimg.oschina.net/oscnet/up-ee8d34f318da466b8a6070a6e3111d12ce7.png)
-
-
-
-
-![](https://oscimg.oschina.net/oscnet/up-826f13c88f23c24ff218687f57f03d802a8.png)
-
-
-![](https://oscimg.oschina.net/oscnet/up-61dfc52c383f86a4055e20d030503bef93c.png)
-
-
-![](https://oscimg.oschina.net/oscnet/up-3aabd991c6c5af43f35b204d3ec94caf468.png)
-
-
-![](https://oscimg.oschina.net/oscnet/up-3b75fde569ab528d8607596e147b8bb7d5e.png)
-
-
-![](https://oscimg.oschina.net/oscnet/up-3b8d034341d0190156d63484ce09a863c9c.png)
-
-
-
-
-Advanced Large Screen Effects
------------------------------------
-- When clicking details, another large screen list page pops up
-  ![](https://oscimg.oschina.net/oscnet/up-628509c6a8475cfde894696d17968fd2333.png)
-  ![](https://oscimg.oschina.net/oscnet/up-e516218c6ee7474153e3c8bc355a6d93b99.png)
-
-- Automatically switches to the next one every 5 minutes with cool dynamic transition effects
-  ![](https://oscimg.oschina.net/oscnet/up-a02975ac2842f05d64d63865af29b7003ed.png)
-
-- Implemented through Gaode Maps, combined with business data to display real-time vehicle locations
-  ![](https://oscimg.oschina.net/oscnet/up-eb73f595417712f2a51ddea4755fca3da67.png)
-
-
-
-
-Report Function List
------------------------------------
-More function list: [http://jimureport.com/plan](http://jimureport.com/plan)
+<details>
+<summary><b>📊 Report Designer Feature List (click to expand)</b></summary>
 
 ```
 ├─Report Designer
-│  ├─Data Source
+│  ├─AI Intelligent Generation
+│  │  ├─Generate reports from a single sentence (Claude Code skills)
+│  │  ├─Recognize a screenshot and restore it into an editable template
+│  ├─Data Source / Dataset
 │  │  ├─Supports multiple data sources such as Oracle, MySQL, SQLServer, PostgreSQL and other mainstream databases
-│  │  ├─Supports intelligent SQL writing pages, allowing you to see table lists and field lists under data sources
+│  │  ├─Supports intelligent SQL writing pages, showing table lists and field lists under data sources
+│  │  ├─SQL dataset
+│  │  ├─API dataset (fetch data via interface)
+│  │  ├─JSON dataset
+│  │  ├─Stored procedure dataset
 │  │  ├─Supports parameters
 │  │  ├─Supports single and multiple data source settings
+│  │  ├─Multi-source report (one report joining multiple datasets across databases)
 │  ├─Cell Format
 │  │  ├─Borders
 │  │  ├─Font size
@@ -369,6 +329,13 @@ More function list: [http://jimureport.com/plan](http://jimureport.com/plan)
 │  │  ├─Master-detail reports
 │  │  ├─Alert reports
 │  │  ├─Data drill-down reports
+│  │  ├─Multi-sheet reports
+│  ├─Data Filling
+│  │  ├─Online form filling
+│  │  ├─Write-back to database
+│  │  ├─Filling validation rules
+│  │  ├─Dropdown / dictionary / date filling controls
+│  │  ├─Batch import of filling data
 │  ├─Chart Reports
 │  │  ├─Column charts
 │  │  ├─Line charts
@@ -389,12 +356,29 @@ More function list: [http://jimureport.com/plan](http://jimureport.com/plan)
 │  │  ├─Parameter management
 │  ├─Import/Export
 │  │  ├─Import Excel
-│  │  ├─Export Excel, PDF, Word
+│  │  ├─Export Excel, PDF, Word, image
 │  ├─Print Settings
 │  │  ├─Print area settings
 │  │  ├─Printer settings
 │  │  ├─Preview
 │  │  ├─Print page number settings
+│  ├─Mobile Adaptation
+│  │  ├─Report / chart browsing on mobile
+│  │  ├─Mobile form filling
+│  ├─Advanced Features
+│  │  ├─Scheduled data refresh
+│  │  ├─Cell hyperlinks / jumps
+│  │  ├─Drill-down linkage
+│  │  ├─Data caching
+│  │  ├─JS / backend enhancement
+```
+
+</details>
+
+<details>
+<summary><b>📺 Big Screen Designer Feature List (click to expand)</b></summary>
+
+```
 ├─Large Screen Designer
 │  ├─System Functions
 │  │  ├─Static and dynamic data source settings
@@ -452,8 +436,10 @@ More function list: [http://jimureport.com/plan](http://jimureport.com/plan)
    └─More features in development...
 ```
 
-Dashboard Function List
------------------------------------
+</details>
+
+<details>
+<summary><b>📈 Dashboard Designer Feature List (click to expand)</b></summary>
 
 ```
 ├─Dashboard Designer
@@ -467,7 +453,7 @@ Dashboard Function List
 │  │  └─Supports adding, deleting, moving dashboard controls
 │  ├─Data Sources
 │  │  └─Supports multiple data sources such as Oracle, MySQL, SQLServer, PostgreSQL and other mainstream databases
-│  │  └─Supports intelligent SQL writing pages, allowing you to see table lists and field lists under data sources
+│  │  └─Supports intelligent SQL writing pages, showing table lists and field lists under data sources
 │  │  └─Supports parameters
 │  ├─Data Sets
 │  │  └─SQL
@@ -554,7 +540,82 @@ Dashboard Function List
     └─Excel
 ```
 
+</details>
 
+
+## Screenshots
+
+### Report Workbench
+
+- Data Visualization (professional and first-class, solving various reporting challenges)
+
+![](https://oscimg.oschina.net/oscnet/up-a2a8557722593e6c5a5e8f015a0df2b70e9.png)
+
+- Report Designer (completely online design, simple and easy to use)
+
+![](https://oscimg.oschina.net/oscnet/up-752b454f64ed87c798b3e8a083fbd6622d4.gif)
+
+- Print Design (supports form overlay, background printing)
+
+![](https://oscimg.oschina.net/oscnet/up-9b6cd73719de68e0e45e1cf95cd6104a103.png)
+![](https://oscimg.oschina.net/oscnet/up-8863ea4e67c02dbd844bb8022652f1be651.png)
+
+- Data Reports (supports complex reports such as grouping, cross-tabulation, totals)
+
+![](https://oscimg.oschina.net/oscnet/up-fe2ac0dfc3933734961924de0538b3049d2.png)
+![](https://oscimg.oschina.net/oscnet/up-be956cbc19287e4df9cc46c9d15e96da99d.png)
+
+- Chart Reports (currently supports 28 chart types)
+
+![](https://oscimg.oschina.net/oscnet/up-3eda428ef182cb64a1a8e132e4bfeb87718.png)
+![](https://oscimg.oschina.net/oscnet/up-22096123c5b6a10a801967c33cc33a7af11.png)
+
+- Form Filling
+
+![](https://oscimg.oschina.net/oscnet/up-0139eb90f2d255152aa69d3b37fcc85e4a2.png)
+![](https://oscimg.oschina.net/oscnet/up-ded4831b7e25638f9ba6033a1f4ba87474f.png)
+![](https://oscimg.oschina.net/oscnet/up-f7c1a3a4cd6673038727ba49c3ee97e216b.png)
+
+### Dashboard and Portal Design
+
+![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/darg20240726105556.png)
+![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135626.png)
+![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135619.png)
+![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240724135630.png)
+![](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/drag20240726105547.png)
+![](https://oscimg.oschina.net/oscnet/up-fad98d42b2cf92f92a903c9cff7579f18ec.png)
+![](https://oscimg.oschina.net/oscnet/up-1bbc177c8397400c3e79bd90fd03b04e615.png)
+
+### Big Screen Design Effects
+
+![](https://oscimg.oschina.net/oscnet/up-402a6034124474bfef8dfc5b4b2bac1ce5c.png)
+![](https://oscimg.oschina.net/oscnet/up-6f7ba2e2ebbeea0d203db8d69fd87644c9f.png)
+![](https://oscimg.oschina.net/oscnet/up-ee8d34f318da466b8a6070a6e3111d12ce7.png)
+![](https://oscimg.oschina.net/oscnet/up-826f13c88f23c24ff218687f57f03d802a8.png)
+![](https://oscimg.oschina.net/oscnet/up-61dfc52c383f86a4055e20d030503bef93c.png)
+![](https://oscimg.oschina.net/oscnet/up-3aabd991c6c5af43f35b204d3ec94caf468.png)
+![](https://oscimg.oschina.net/oscnet/up-3b75fde569ab528d8607596e147b8bb7d5e.png)
+![](https://oscimg.oschina.net/oscnet/up-3b8d034341d0190156d63484ce09a863c9c.png)
+
+### Advanced Big Screen Effects
+
+- When clicking details, another big-screen list page pops up
+
+![](https://oscimg.oschina.net/oscnet/up-628509c6a8475cfde894696d17968fd2333.png)
+![](https://oscimg.oschina.net/oscnet/up-e516218c6ee7474153e3c8bc355a6d93b99.png)
+
+- Automatically switches to the next one every 5 minutes with cool dynamic transitions
+
+![](https://oscimg.oschina.net/oscnet/up-a02975ac2842f05d64d63865af29b7003ed.png)
+
+- Powered by Gaode Maps, combined with business data to display real-time vehicle locations
+
+![](https://oscimg.oschina.net/oscnet/up-eb73f595417712f2a51ddea4755fca3da67.png)
+
+
+## License
+
+The open-source version is released under the LGPL license. If you cannot accept LGPL and need to use this project for commercial purposes without retaining copyright information (preview "Powered by JimuReport", "JimuReport Logo" and other copyright and links), you need to purchase a [commercial license](http://jimureport.com/vip) to protect your legal rights.
 
 
 ## Donation
