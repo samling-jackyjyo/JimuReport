@@ -48,7 +48,7 @@
         <java.version>17</java.version>
         <minio.version>8.0.3</minio.version>
         <druid.version>1.2.24</druid.version>
-        <minidao.version>1.10.20</minidao.version>
+        <minidao.version>1.10.21</minidao.version>
         <!-- DB驱动 -->
         <mysql-connector-java.version>8.0.27</mysql-connector-java.version>
         <!-- 积木报表版本 -->
@@ -57,7 +57,7 @@
         <jimureport-echarts.version>2.3.0</jimureport-echarts.version>
         <jimureport-nosql.version>2.3.0</jimureport-nosql.version>
         <!-- SQL解析引擎 -->
-        <jsqlparser.version>4.9</jsqlparser.version>
+        <jsqlparser.version>5.0</jsqlparser.version>
     </properties>
 
 
