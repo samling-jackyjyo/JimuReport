@@ -71,6 +71,33 @@ jeecg:
     bucketName: ??
   #大屏报表参数设置
   jmreport:
+    #多租户模式，默认值为空(created:按照创建人隔离、tenant:按照租户隔离)
+    saasMode:
+    # 签名密钥
+    signatureSecret: dd05f1c54d63749eda95f9fa6d49v442a
+    ai:
+      # OpenAI 兼容 base 地址（必填）
+      base-url: https://api.deepseek.com
+      # API Key（必填，留空则 AI 不可用）
+      api-key: 
+      # 模型名
+      model: deepseek-v4-pro
+      # 单次生成最大 token 数(传给大模型的 max_tokens)，DeepSeek 合法范围[1,393216]
+      max-tokens:
+      # 采样温度，可选
+      temperature: 0
+      # chat-completions 路径，可选，默认 /v1/chat/completions
+      completions-path: /v1/chat/completions
+    # 平台上线安全配置
+    firewall:
+      # 数据源安全 (开启后，不允许使用平台数据源、SQL解析加签并且不允许查询数据库)
+      dataSourceSafe: false
+      # SQL解析安全 false: 数据库解析(默认,稳定性好) true: jsqlparser解析(不走数据库,安全级别高) v2.2.1+新增
+      #sqlParseSafe: true
+      # 低代码开发模式（dev:开发模式，prod:发布模式—关闭在线报表设计功能，分配角色admin、lowdeveloper可放开限制）
+      lowCodeMode: dev
+      # sql注入检查级别（strict:严格, basic:简单校验, none:不校验）
+      sqlInjectionLevel: basic
     # 邮件发送
     mail:
       # 是否开启
@@ -94,20 +121,6 @@ jeecg:
         #jimu-view-path: "https://???/jmreport/view/"
         # 非必须，下载的报表的存放目录(服务器上的目录)
         #download-path: "/???/???"
-    #多租户模式，默认值为空(created:按照创建人隔离、tenant:按照租户隔离)
-    saasMode:
-    # 签名密钥
-    signatureSecret: dd05f1c54d63749eda95f9fa6d49v442a
-    # 平台上线安全配置
-    firewall:
-      # 数据源安全 (开启后，不允许使用平台数据源、SQL解析加签并且不允许查询数据库)
-      dataSourceSafe: false
-      # SQL解析安全 false: 数据库解析(默认,稳定性好) true: jsqlparser解析(不走数据库,安全级别高) v2.2.1+新增
-      #sqlParseSafe: true
-      # 低代码开发模式（dev:开发模式，prod:发布模式—关闭在线报表设计功能，分配角色admin、lowdeveloper可放开限制）
-      lowCodeMode: dev
-      # sql注入检查级别（strict:严格, basic:简单校验, none:不校验）
-      sqlInjectionLevel: basic
     # 高德地图Api配置(v2.1.3+ BI新增高德地图)
     gao-de-api:
       # 应用key
@@ -123,13 +136,6 @@ jeecg:
     #数据量最大限制（适用于无分页模式、打印全部等场景，默认：100000）v2.2.1+新增
     #说明：1.无分页模式-查询时最多返回该数量的记录 2.打印全部-最多处理该数量的记录
     max-data-rows: 100000
-    pageSize:
-      - 10
-      - 20
-      - 30
-      - 40
-    ai:
-      jeecg-host: http://localhost:8080/jeecgboot/
 #输出sql日志
 logging:
   level:

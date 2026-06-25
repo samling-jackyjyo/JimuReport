@@ -70,7 +70,7 @@ public class JimuReportTokenServiceImpl implements JmReportTokenServiceI {
     @Override
     public String[] getRoles(String token) {
         //积木内置三个角色 "admin","lowdeveloper","dbadeveloper"
-        return new String[]{"admin","lowdeveloper","dbadeveloper"};
+        return new String[]{"admin","lowdeveloper","dbadeveloper","chat2bi"};
     }
 
 
@@ -82,16 +82,49 @@ public class JimuReportTokenServiceImpl implements JmReportTokenServiceI {
      */
     @Override
     public String[] getPermissions(String token) {
-        //drag:datasource:testConnection   仪表盘数据库连接测试
-        //onl:drag:clear:recovery          清空回收站
-        //drag:analysis:sql                SQL解析
-        //drag:design:getTotalData         仪表盘对Online表单展示数据
-        //drag:dataset:save                数据集保存
-        //drag:dataset:delete              数据集删除
-        //drag:datasource:saveOrUpate      数据源保存
-        //drag:datasource:delete           数据源删除
-        return new String[]{"drag:datasource:testConnection","onl:drag:clear:recovery","drag:analysis:sql","drag:design:getTotalData","onl:drag:page:delete",
-                "drag:dataset:save","drag:dataset:delete","drag:datasource:saveOrUpate","`drag:datasource:delete"};
+        return new String[]{
+                // ===== 大屏（仪表盘 BI）按钮权限，与 drag 模块各控制器 @RequiresPermissions 一致 =====
+                "drag:datasource:testConnection", // 数据源连接测试
+                "drag:datasource:saveOrUpate",    // 数据源新增/编辑
+                "drag:datasource:delete",         // 数据源删除
+                "drag:datasource:deleteBatch",    // 数据源批量删除
+                "drag:datasource:queryById",      // 数据源详情查询
+                "drag:dataset:save",              // 数据集保存
+                "drag:dataset:delete",            // 数据集删除
+                "drag:analysis:sql",              // SQL解析
+                "drag:design:getTotalData",       // 仪表盘对Online表单展示数据
+                "drag:iconlib:config",            // 图标库配置
+                "onl:drag:clear:recovery",        // 清空回收站
+                "onl:drag:page:delete",           // 仪表盘页面删除
+                "onl:drag:category:delete",       // 仪表盘分类删除
+                "onl:drag:comp:add",              // 组件新增
+                "onl:drag:comp:edit",             // 组件编辑
+                "onl:drag:comp:delete",           // 组件删除
+                "onl:drag:comp:deleteBatch",      // 组件批量删除
+                "onl:drag:getRawTableData",       // 获取原始表数据
+                // ===== 积木报表按钮权限，与 jmreport 各控制器 @RequiresPermissions 一致 =====
+                "jmreport:exportJob:plugin",         // 导出任务-插件
+                "jmreport:exportJob:list",           // 导出任务-列表
+                "jmreport:exportJob:save",           // 导出任务-保存
+                "jmreport:exportJob:detail",         // 导出任务-详情
+                "jmreport:exportJob:delete",         // 导出任务-删除
+                "jmreport:exportJob:status",         // 导出任务-状态变更
+                "jmreport:exportJob:run",            // 导出任务-执行
+                "jmreport:map:add",                  // 地图-新增
+                "jmreport:map:delete",               // 地图-删除
+                "jmreport:reportGroup:list",         // 报表分组-列表
+                "jmreport:reportGroup:detail",       // 报表分组-详情
+                "jmreport:reportGroup:save",         // 报表分组-保存
+                "jmreport:reportGroup:delete",       // 报表分组-删除
+                "jmreport:category:add",             // 报表分类-新增
+                "jmreport:category:edit",            // 报表分类-编辑
+                "jmreport:category:delete",          // 报表分类-删除
+                "jmreport:category:reduction",       // 报表分类-还原
+                "jmreport:category:completelyDelete",// 报表分类-彻底删除
+                "jmreport:category:batchMove",       // 报表分类-批量移动
+                "jmreport:category:folderSort",      // 报表分类-文件夹排序
+                "jmreport:design:loadTableData"      // 设计器-加载表数据
+        };
     }
 
     /**
