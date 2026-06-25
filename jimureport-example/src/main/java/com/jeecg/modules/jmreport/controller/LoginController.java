@@ -12,6 +12,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.net.URLEncoder;
 
@@ -85,5 +86,15 @@ public class LoginController {
     public String logout() {
         StpUtil.logout();
         return "redirect:" + LOGIN_PAGE;
+    }
+
+    /**
+     * 判断是否使用默认演示账号 admin/123456
+     */
+    @GetMapping("/isDefaultCredentials")
+    @ResponseBody
+    public boolean isDefaultCredentials() {
+        return "admin".equals(securityConfig.getUser().getName())
+                && "123456".equals(securityConfig.getUser().getPassword());
     }
 }

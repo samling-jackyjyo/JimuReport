@@ -299,7 +299,7 @@
             </p>
             <button class="btn btn-lg btn-primary btn-block" type="submit">登录</button>
             <p>
-            <div class="tips" >
+            <div class="tips" id="default-credentials-tip" style="display: none;">
             用户名: admin 密码: 123456
             </div>
             </p>
@@ -328,6 +328,14 @@
         if (urlParams.has('error')) {
             document.getElementById('error-message').style.display = 'block';
         }
+        fetch('/isDefaultCredentials')
+            .then(function(res) { return res.json(); })
+            .then(function(isDefault) {
+                if (isDefault) {
+                    document.getElementById('default-credentials-tip').style.display = '';
+                }
+            })
+            .catch(function() {});
     }
 </script>
 </html>
