@@ -31,6 +31,7 @@ v2.5.0 | 2026-06-25
 - [为什么选择 JimuReport](#为什么选择-jimureport)
 - [快速链接](#快速链接)
 - [快速集成](#快速集成)
+- [AI 助手集成配置](#ai-助手集成配置)
 - [部署与运行](#部署与运行)
 - [AI 智能生成](#ai-智能生成)
 - [数据库兼容](#数据库兼容)
@@ -171,6 +172,51 @@ v2.5.0 | 2026-06-25
 - https://help.jimureport.com/quick.html
 
 
+## AI 助手集成配置
+
+> AI 助手功能仅支持 **SpringBoot3**（`jimureport-spring-boot3-starter`）。配置完成后，报表设计器内将自动显示 AI 入口，**无需额外部署**，开箱即用。
+>
+> 详细说明：[AI 助手配置文档](https://help.jimureport.com/rumen/aiAssistant/) · [配置教程](https://my.oschina.net/jeecg/blog/19711672)
+
+在 `application.yml` 中增加以下配置：
+
+```yaml
+jeecg:
+  jmreport:
+    ai:
+      # OpenAI 兼容接口地址（必填）
+      base-url: https://api.deepseek.com
+      # API Key（必填，留空则 AI 功能不可用）
+      api-key: sk-xxxxxxxxxxxxxxxxxxxx
+      # 模型名（必填）
+      model: deepseek-v4-pro
+      # 单次生成最大 token 数，可选，DeepSeek 合法范围 [1, 393216]
+      max-tokens:
+      # 采样温度，可选，建议设为 0（输出稳定）
+      temperature: 0
+      # chat-completions 路径，可选，默认 /v1/chat/completions
+      completions-path: /v1/chat/completions
+      # AI 自动建表开关：允许 AI 在指定数据源上执行 DDL/DML
+      # ⚠️ 安全警告：此功能会直接操作数据库，生产环境请务必设为 false
+      autoTableEnabled: false
+```
+
+#### 支持的 AI 服务商
+
+积木报表支持任何兼容 **OpenAI Chat Completions API** 的服务商，以下为常用选择：
+
+| 服务商 | base-url | 推荐模型 |
+| --- | --- | --- |
+| DeepSeek（推荐） | `https://api.deepseek.com` | `deepseek-v4-pro` |
+| OpenAI | `https://api.openai.com` | `gpt-4o` |
+| 通义千问（阿里云） | `https://dashscope.aliyuncs.com/compatible-mode` | `qwen-max` |
+| 文心一言（百度） | `https://qianfan.baidubce.com/v2` | `ernie-4.5-8k` |
+| Kimi（月之暗面） | `https://api.moonshot.cn` | `moonshot-v1-32k` |
+| Azure OpenAI | `https://<your-resource>.openai.azure.com` | `gpt-4o` |
+
+> 所有支持 OpenAI Chat Completions API 格式的服务商均可接入，通过 `base-url` 指向对应地址即可。
+
+
 ## 部署与运行
 
 #### jimureport-example 环境要求
@@ -191,7 +237,19 @@ v2.5.0 | 2026-06-25
 
 ## AI 智能生成
 
-> 积木报表 Claude Code 技能集合，一句话描述需求，AI 自动生成 **AI 报表**、**AI 大屏**、**AI 仪表盘**，覆盖数据可视化全场景，告别繁琐拖拽设计。
+> 完成 [AI 助手集成配置](#ai-助手集成配置) 后，报表设计器内 AI 入口即刻可用。一句话描述需求或上传截图，AI 自动生成完整的**报表、大屏、仪表盘**，覆盖数据可视化全场景，告别繁琐拖拽。
+
+#### 🤖 AI 助手能力一览
+
+| 场景 | 能力说明 | 示例提示词 |
+| --- | --- | --- |
+| **AI 报表** | 自然语言一句话生成分组、交叉、主子等各类复杂报表 | 做一个按部门分组的工资统计报表 |
+| **AI 大屏** | 一句话生成完整大屏，自动完成图表布局、色彩主题与数据绑定 | 做一个智慧物流监控大屏 |
+| **AI 仪表盘** | 自动生成 KPI 看板与业务仪表盘，支持多图表组合 | 生成一个销售运营 KPI 看板 |
+| **截图还原** | 上传报表 / 大屏截图，AI 自动识别并还原为可编辑模板 | —— |
+| **AI 自动建表** | AI 根据报表需求自动建表并填充示例数据，快速验证效果 | 需开启 `autoTableEnabled: true` |
+
+> 提示词示例库：[AI 报表](https://help.jimureport.com/rumen/jimureport-prompts) · [AI 大屏](https://help.jimureport.com/rumen/bigscreen-prompts)
 
 #### 🚀 一键安装 Claude Code + 积木 Skills
 
@@ -220,7 +278,7 @@ git clone https://github.com/jeecgboot/skills.git ~/.claude/skills
 
 安装完成后，新开终端运行 `claude`，即可用自然语言生成报表与大屏。
 
-> Skills 开源仓库： https://github.com/jeecgboot/skills · 技能官网： https://jimureport.com/skills
+> Skills 开源仓库：https://github.com/jeecgboot/skills · 技能官网：https://jimureport.com/skills
 
 #### 📦 技能清单
 
@@ -229,8 +287,6 @@ git clone https://github.com/jeecgboot/skills.git ~/.claude/skills
 | `jimureport` | 一句话生成报表 | 做一个按部门分组的工资统计报表 |
 | `jimubi-bigscreen` | 一句话生成大屏 | 做一个智慧物流监控大屏 |
 | `jimubi-dashboard` | 一句话生成仪表盘 / 门户 | 生成一个销售运营 KPI 看板 |
-
-> 提示词示例库： [AI 报表](https://help.jimureport.com/rumen/jimureport-prompts) · [AI 大屏](https://help.jimureport.com/rumen/bigscreen-prompts)
 
 
 ## 数据库兼容
