@@ -10,6 +10,6 @@ WORKDIR /jimureport
 
 EXPOSE 8085
 
-ADD ./target/jimureport-example-2.3.jar ./
+ADD ./target/jimureport-example-2.5.jar ./
 
-CMD java -DMYSQL-HOST=jimureport-mysql -Dfile.encoding=utf-8 -Djava.security.egd=file:/dev/./urandom -jar jimureport-example-2.3.jar
+CMD java -DMYSQL-HOST=jimureport-mysql -Dfile.encoding=utf-8 -Djava.security.egd=file:/dev/./urandom -jar jimureport-example-2.5.jar
