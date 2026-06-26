@@ -88,9 +88,8 @@ jeecg:
       temperature: 0
       # chat-completions 路径，可选，默认 /v1/chat/completions
       completions-path: /v1/chat/completions
-      # AI自动建表功能开关（允许AI大屏在指定数据源上执行CREATE TABLE/INSERT INTO）
-      # 安全警告: 此功能会直接操作数据库DDL/DML，生产环境请勿启用
-      autoTableEnabled: true
+      # AI自动建表（安全警告: 此功能会直接操作数据库DDL/DML，生产环境请勿启用）
+      autoTableEnabled: false
     # 平台上线安全配置
     firewall:
       # 数据源安全 (开启后，不允许使用平台数据源、SQL解析加签并且不允许查询数据库)
